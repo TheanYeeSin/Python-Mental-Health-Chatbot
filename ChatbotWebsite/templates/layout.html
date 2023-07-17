@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{title}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/layout.css') }}"
+    />
+    {% block style%} {% endblock style %} {%block script%} {%endblock script%}
+  </head>
+
+  <body>
+    <!-- As a heading -->
+    {%block navigation%}
+    <nav
+      id="navigation-bar"
+      class="navbar navbar-expand-lg bg-light.bg-gradient shadow-sm"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{url_for('main.home')}}"
+          >@Mental Health Bot</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse ml-5 d-flex justify-content-between"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item bg-info text-black rounded">
+              <a
+                class="nav-link active fw-bold"
+                aria-current="page"
+                href="{{url_for('chatbot.chat')}}"
+                >CHAT</a
+              >
+            </li>
+            <li class="nav-item rounded">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="{{url_for('journals.all_journals')}}"
+                >Journal</a
+              >
+            </li>
+            <li class="nav-item rounded">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="{{url_for('main.about')}}"
+                >About</a
+              >
+            </li>
+
+          </ul>
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item bg-danger rounded">
+              <a class="sos nav-link active fw-bold" href="{{url_for('main.sos')}}">SOS</a>
+            </li>
+            {%if current_user.is_authenticated%}
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('users.account')}}">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('users.logout')}}">Logout</a>
+            </li>
+            {%else%}
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('users.login')}}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('users.register')}}">Register</a>
+            </li>
+            {%endif%}
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {%endblock navigation%} {%with messages =
+    get_flashed_messages(with_categories=true)%} {%if messages%} {%for category,
+    message in messages%}
+    <div
+      class="alert alert-{{category}} position-absolute top-0 start-50 translate-middle-x"
+    >
+      {{message}}
+    </div>
+    {%endfor%} {%endif%}{%endwith%} {% block content%} {% endblock content %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+{%extends 'layout.html'%}{%block content%}
+    <div class="container-sm d-grid mt-5">
+        <div class="container pt-1">
+          <div class="row d-flex justify-content-center align-items-center">
+              <div class="card mb-3 border-0">
+                <div class="card-body p-4">
+                  <h3 class="mb-3">Feeling <span class="text-info">{{journal.mood}}</span> on {{journal.timestamp.strftime('%d.%m.%Y')}}</h3>
+                  <p class="lh-lg">{{journal.content}} </p>
+                  <hr class="my-3">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="{{url_for('static',filename='profile_images/'+current_user.profile_image)}}" alt="profile-avatar"
+                        class="img-fluid rounded-circle me-3" width="50">
+                    <div class="col">
+                        <p class="mb-0">{{journal.user.username}}</p>
+                        <small class="text-muted">Created on {{journal.timestamp.strftime('%d/%m/%Y, %A, %H:%M')}}</small>
+                    </div>
+                    <div class="gap-3">
+                        <a href="{{url_for('journals.update_journal',journal_id=journal.id)}}" class="btn btn-outline-secondary">Update</a>
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteJournal">
+                          Delete
+                        </button>
+                      </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="deleteJournal" tabindex="-1" aria-labelledby="deleteJournalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="deleteJournalLabel">Delete Journal?</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Are you sure you want to delete your journal? This action cannot be undone.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <form action="{{url_for('journals.delete_journal',journal_id=journal.id)}}" method="POST">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <a href="{{url_for('journals.all_journals')}}" class="btn btn-outline-secondary col-1">&lt Back</a>
+    </div>
+    
+{%endblock content%}

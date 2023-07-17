@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% block content %}
+    
+    <div class="container-fluid d-grid">
+        <a class="btn mx-auto mt-3 mb-4 btn-info btn-lg" href="{{url_for('journals.new_journal')}}">Add Journal</a>
+        <div class="ms-auto">
+            {% for page_num in journals.iter_pages(left_edge=1,right_edge=1, left_current=1,right_current=1) %}
+                {%if page_num%}
+                    {%if journals.page ==page_num%}
+                    <a href="{{url_for('journals.all_journals',page=page_num)}}" class="btn btn-secondary mb-4">{{page_num}}</a>
+                    {%else%}
+                        <a href="{{url_for('journals.all_journals',page=page_num)}}" class="btn btn-outline-secondary mb-4">{{page_num}}</a>
+                    {%endif%}
+                {%else%}
+                    ...
+                {%endif%}
+            {% endfor %}
+        </div>
+        {% for journal in journals.items %}
+            <div class="container py-1">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col col-10">
+                <div class="card mb-5 border-info" style="border-radius: 15px;">
+                    <div class="card-body p-4">
+                    <h3 class="mb-3">Feeling <a href="{{url_for('journals.journal',journal_id=journal.id)}}" class="text-info text-decoration-none">{{journal.mood}}</a> on {{journal.timestamp.strftime('%d.%m.%Y')}}</h3>
+                    <p class="text-truncate">{{journal.content}} </p>
+                    
+                    <hr class="my-3">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <img src="{{url_for('static',filename='profile_images/'+current_user.profile_image)}}" alt="profile-avatar"
+                            class="img-fluid rounded-circle me-3" width="50">
+                        <div class="col">
+                            <p class="mb-0">{{journal.user.username}}</p>
+                            <small class="text-muted">Created on {{journal.timestamp.strftime('%d/%m/%Y, %A, %H:%M')}}</small>
+                        </div>
+                        <a href="{{url_for('journals.journal',journal_id=journal.id)}}" class="btn btn-outline-secondary">View</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content%}   

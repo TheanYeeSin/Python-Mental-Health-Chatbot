@@ -1,0 +1,99 @@
+{%extends "layout.html"%} {%block content%}
+<div class="container py-4 h-100">
+  <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-5">
+      <div class="card p-4 " style="border-radius: 15px;">
+        <div class="d-flex text-black">
+          <div class="flex-shrink-0">
+            <img src="{{url_for(
+              'static', filename='profile_images/' + current_user.profile_image)}}"
+              alt="Profile image" class="img-fluid"
+              style="height:180px; width: 180px; border-radius: 10px;">
+          </div>
+          <div class="col">
+            <div class="row flex-grow-1 ms-3 mb-3">
+              <h5 class="mb-1">#{{current_user.id}} {{current_user.username}}</h5>
+              <p class="mb-2 pb-1" style="color: #2b2a2a;">{{current_user.email}}</p>
+            </div>
+            <div class="row flex-grow-1 ms-3">
+              <div class="d-grid gap-3">
+                <form action="{{url_for('users.delete_conversation')}}" method="POST">
+                  <button type="submit" class="btn btn-outline-danger btn-sm">
+                    Delete Conversation
+                  </button>
+                </form>
+                <!-- Button trigger modal -->
+                <div>
+                  <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                    Delete Account
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="deleteModalLabel">Delete Account?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Are you sure you want to delete your account? This action cannot be undone.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <form action="{{url_for('users.delete_account')}}" method="POST">
+                          <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-sm px-5">
+  <form method="POST" action="" enctype="multipart/form-data">
+    {{form.hidden_tag()}}
+    <fieldset class="form-group d-grid gap-3">
+      <legend
+        class="fs-1 fw-bold font-monospace border-bottom border-info mb-3 mt-2"
+      >
+        Account Info
+      </legend>
+      <div>
+        {{form.username.label(class="form-control-label")}} {%if
+        form.username.errors%} {{form.username(class="form-control
+        form-control-lg is-invalid")}} {%for error in form.username.errors%}
+        <div class="invalid-feedback">{{error}}</div>
+        {%endfor%} {%else%} {{form.username(class="form-control
+        form-control-lg")}} {%endif%}
+      </div>
+      <div class="form-group">
+        {{form.email.label(class="form-control-label")}} {%if
+        form.email.errors%} {{form.email(class="form-control form-control-lg
+        is-invalid")}} {%for error in form.email.errors%}
+        <div class="invalid-feedback">{{error}}</div>
+        {%endfor%} {%else%} {{form.email(class="form-control form-control-lg")}}
+        {%endif%}
+      </div>
+      <div class="form-group">
+        {{form.picture(class="form-control-file")}}
+        {% if form.picture.errors%}
+            {%for error in form.picture.errors%}
+                <span class="text-danger">{{error}}</div></br>
+            {%endfor%}
+        {%endif%}
+      </div>
+    </fieldset>
+    <div class="form-group">
+      {{form.submit(class="btn btn-outline-info btn-lg my-3")}}
+    </div>
+  </form>
+</div>
+{%endblock content%}

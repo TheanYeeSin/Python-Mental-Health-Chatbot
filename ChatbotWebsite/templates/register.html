@@ -1,0 +1,68 @@
+{%extends "layout.html"%} {%block content%}
+<div class="container-sm px-5">
+  <div class="row">
+    <div class="col-8">
+      <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <fieldset class="form-group d-grid gap-3">
+          <legend
+            class="fs-1 fw-bold font-monospace border-bottom border-info mb-3 mt-2"
+          >
+            Register
+          </legend>
+          <div class="form-group">
+            {{form.username.label(class="form-control-label")}} {%if
+            form.username.errors%} {{form.username(class="form-control
+            form-control-lg is-invalid")}} {%for error in form.username.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.username(class="form-control
+            form-control-lg")}} {%endif%}
+          </div>
+          <div class="form-group">
+            {{form.email.label(class="form-control-label")}} {%if
+            form.email.errors%} {{form.email(class="form-control form-control-lg
+            is-invalid")}} {%for error in form.email.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.email(class="form-control form-control-lg")}}
+            {%endif%}
+          </div>
+          <div class="form-group">
+            {{form.password.label(class="form-control-label")}} {%if
+            form.password.errors%} {{form.password(class="form-control
+            form-control-lg is-invalid")}} {%for error in form.password.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.password(class="form-control
+            form-control-lg")}} {%endif%}
+          </div>
+          <div class="form-group">
+            {{form.confirm_password.label(class="form-control-label")}} {%if
+            form.confirm_password.errors%}
+            {{form.confirm_password(class="form-control form-control-lg
+            is-invalid")}} {%for error in form.confirm_password.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.confirm_password(class="form-control
+            form-control-lg")}} {%endif%}
+          </div>
+        </fieldset>
+        <div class="form-group">
+          {{form.submit(class="btn btn-outline-info btn-lg mt-3")}}
+        </div>
+      </form>
+      <hr />
+      <div>
+        <small
+          >Already Have an Account?
+          <a class="link-info text-decoration-none" href="{{url_for('users.login')}}"
+            >Sign In</a
+          ></small
+        >
+      </div>
+    </div>
+    <div class="col-4">
+      <img src="{{url_for('static',filename='images/register.jpg')}}" 
+      id="register-image"
+      class="img-fluid rounded-start my-4">
+    </div>
+  </div>
+</div>
+{% endblock content%}

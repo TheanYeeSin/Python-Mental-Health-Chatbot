@@ -1,0 +1,3101 @@
+{
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hi Chatbot",
+        "Hello Chatbot",
+        "Good day",
+        "What's up",
+        "What is up",
+        "Howdy",
+        "Hey",
+        "Hey there",
+        "Hello there",
+        "Hi there",
+        "Good to see you"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, how can I help?",
+        "Hi there, what can I do for you?",
+        "Hello, how are you today?",
+        "Hi, how can I help you?",
+        "Hello there, tell me how are you feeling today?",
+        "Hi, how are you feeling today?",
+        "Hello, I'm glad you are here. How can I help you?",
+        "Hi there, what brings you here today?",
+        "Hi there, how are you feeling today?",
+        "Great to see you. How can I help you today?",
+        "Hello there. Glad to see you're back. What's going on in your world right now?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Greeting2",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How are things?",
+        "How's it going?",
+        "How's life?",
+        "How's your day going?",
+        "How's your day?"
+      ],
+      "responses": [
+        "I'm doing great. Thanks for asking.",
+        "I'm doing fine. How about you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Morning",
+      "patterns": ["Good morning", "Morning", "Morning Chatbot"],
+      "responses": [
+        "Good morning. I hope you had a good night's sleep. How are you feeling today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Afternoon",
+      "patterns": ["Good afternoon", "Afternoon", "Afternoon Chatbot"],
+      "responses": ["Good afternoon. How is your day going?"],
+      "context_set": ""
+    },
+    {
+      "tag": "Evening",
+      "patterns": ["Good evening", "Evening", "Evening Chatbot"],
+      "responses": ["Good evening. How has your day been?"],
+      "context_set": ""
+    },
+    {
+      "tag": "Night",
+      "patterns": ["Good night", "Night", "Night Chatbot"],
+      "responses": [
+        "Good night. Get some proper sleep",
+        "Good night. Sweet dreams."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Haha",
+      "patterns": ["Haha"],
+      "responses": ["Haha", "Glad you are laughing :)"],
+      "context_set": ""
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Bye.",
+        "Bye Bye.",
+        "See you later.",
+        "Goodbye.",
+        "I am leaving.",
+        "Have a good day.",
+        "Have a nice day.",
+        "Ok bye.",
+        "Bye then.",
+        "Fare thee well.",
+        "Farewell.",
+        "Thanks, bye."
+      ],
+      "responses": [
+        "See you later.",
+        "Have a nice day.",
+        "Bye! Come back again.",
+        "I'll see you soon.",
+        "Bye. It was nice talking to you.",
+        "Goodbye! Take care.",
+        "See you later! Have a great day.",
+        "See you soon.",
+        "No problem, see you later.",
+        "Take care of yourself.",
+        "Thanks for using my services!",
+        "Always here to help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "I an grateful to have you around",
+        "Thank you very much",
+        "I can't tell you how thankful I am for you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!",
+        "No problem!",
+        "Glad I could help!",
+        "I'm humbled",
+        "I feel good talking to you too",
+        "No worries!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Name",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "Tell me more about yourself.",
+        "What is your name?",
+        "What should I call you?",
+        "What's your name?",
+        "Tell me about yourself",
+        "Chatbot name",
+        "Your name"
+      ],
+      "responses": [
+        "Hah, thanks for asking, I am a Mental Health Chatbot designed to provide information about mental health",
+        "I'm your Personal Mental Health Chatbot/Assistance. How are you feeling today?",
+        "I'm a Mental Health Assitant designed to assist you. How are you today?",
+        "I am a conversational agent designed to mimic a therapist. So how are you feeling today?",
+        "You can call me whatever.",
+        "I'm a Mental Health Chatbot!",
+        "Call me whatever you want.",
+        "I don't have a name, you can call me whatever.",
+        "I'm a Mental Health Chatbot. How are you feeling today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Purpose",
+      "patterns": [
+        "What is the purpose of you?",
+        "What do you do?",
+        "What can you do?",
+        "What do you offer?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "I can provide general advice regarding mental health, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Creation",
+      "patterns": [
+        "Who created you?",
+        "How were you made?",
+        "How were you created?"
+      ],
+      "responses": [
+        "I was created by Thean Yee Sin as his final year project.",
+        "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
+        "The real question is: Who created you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Username",
+      "patterns": ["My name is ", "I am name ", "I go by "],
+      "responses": [
+        "Oh nice to meet you. Tell me how was your week?",
+        "Nice to meet you. So tell me. How do you feel today?",
+        "That's a great name. Tell me more about yourself."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "Could you help me?",
+        "Give me a hand please",
+        "Can you help?",
+        "I need support",
+        "I need help",
+        "Support me please"
+      ],
+      "responses": [
+        "Sure. Tell me how can i assist you",
+        "Tell me your problem so that i can assist you",
+        "Yes, sure. How can I help you?"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Tell me another joke",
+        "Tell me a funny joke",
+        "Do you know a joke?",
+        "Joke"
+      ],
+      "responses": [
+        "Remember that mental health is not a joke, but here is a joke for you. What did the buffalo say when his son left for college? Bison!",
+        "Remember that mental health is not a joke, but here is a joke for you. What do you call a cow with no legs? Ground beef!",
+        "Remember that mental health is not a joke, but here is a joke for you. What did the fish say when he swam into a wall? Dam.",
+        "Remember that mental health is not a joke, but here is a joke for you. What do you call a fish with no eyes? A fsh.",
+        "Remember that mental health is not a joke, but here is a joke for you. What do you call a can opener that doesn't work? A can't opener! ",
+        "Remember that mental health is not a joke, but here is a joke for you. There are three types of people in the world: Those who can count and those who can't."
+      ],
+      "context_set": "jokes"
+    },
+    {
+      "tag": "Quotes",
+      "patterns": ["Tell me some good quotes", "Quotes", "Tell me some quotes"],
+      "responses": [
+        " 'There is love, there is music, there is no limit, there is work, there is the precious sense that this is the hour of grace when all things gather and distil to create the rest of my life. I don't believe in God, I believe in everything.' ",
+        " 'Tomorrow is always fresh, with no mistakes in it yet' ",
+        " 'Today will be better. Not because the world has dealt you better cards, but because you choose to use them to your advantage. Today, you choose happiness.' ",
+        " 'Happiness is not something ready made. It comes from your own actions.' ",
+        " 'Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.' ",
+        " 'Imagine walking over a ray of sunshine. Everything is warm and full of light and there is a smile, not on your lips, but rather deep inside of you. There is no past or future, time doesn't exist. You feel like you are becoming one with the sun. You're walking through infinity, one step at a time. Turns out happiness was always a part of you, you just had to allow it to break through. And freedom, freedom was just one tiny step in front of you.' ",
+        " 'So far, you have made it through all of your worst days. Well done, Keep going friend!' ",
+        " 'to be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness' ",
+        " 'If happiness visits you again, do not remember it's previous betrayal. Enter into the happiness and burst' ",
+        " 'I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe.' "
+      ],
+      "context_set": "quotes"
+    },
+    {
+      "tag": "Advices",
+      "patterns": ["Give me some advices", "Advices"],
+      "responses": [
+        "Make time for self-care activities that you enjoy",
+        "Practice relaxation techniques, such as deep breathing or meditation",
+        "Get enough sleep and maintain a healthy sleeping routine",
+        "Stay physically active and incorporate exercise into your routine",
+        "Reach out to friends or family for support",
+        "Consider talking to a mental health professional for additional support and guidance",
+        "Remember, taking care of your mental health is important and seeking help when you need it is a sign of strength, not weakness."
+      ],
+      "context_set": "advices"
+    },
+    {
+      "tag": "Repeat",
+      "patterns": [
+        "You already told me that",
+        "You mentioned that already",
+        "Why are you repeating yourself?",
+        "Repeated"
+      ],
+      "responses": [
+        "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wrong",
+      "patterns": [
+        "What are you saying?",
+        "That doesn't make sense",
+        "Wrong response",
+        "Wrong answer",
+        "Wrong"
+      ],
+      "responses": ["I'm very sorry. Let's try that again"],
+      "context_set": ""
+    },
+    {
+      "tag": "Right",
+      "patterns": [
+        "You are right",
+        "Correct answer",
+        "Correct response",
+        "Correct"
+      ],
+      "responses": ["I'm glad that I could help."],
+      "context_set": ""
+    },
+    {
+      "tag": "Disagree",
+      "patterns": ["I disagree", "Disagree"],
+      "responses": ["Why is that?"],
+      "context_set": ""
+    },
+    {
+      "tag": "Agree",
+      "patterns": ["I agree", "Agree"],
+      "responses": ["Cool :)", "Nice, glad you agreed"],
+      "context_set": ""
+    },
+    {
+      "tag": "Neutral",
+      "patterns": ["Okay", "OK", "Alright"],
+      "responses": ["Okay!", "Alright", "Alrighty"],
+      "context_set": ""
+    },
+    {
+      "tag": "Addiction Definition",
+      "patterns": [
+        "What is addiction",
+        "How is addiction defined",
+        "What are the characteristics of addiction",
+        "What is the definition of addiction",
+        "Addiction definition",
+        "Define addiction"
+      ],
+      "responses": [
+        "Addiction is a condition that involves compulsive use of a substance or engagement in a behavior despite harmful consequences.",
+        "Addiction is defined as a chronic brain disease that affects a person's reward, motivation, and memory systems, leading to persistent use or engagement despite negative consequences.",
+        "Addiction includes a strong craving for the substance or behavior, difficulty controlling use or engagement, withdrawal symptoms, continuing to use or engage despite adverse consequences."
+      ],
+      "context_set": "addiction definition"
+    },
+    {
+      "tag": "Addiction Symptoms",
+      "patterns": [
+        "I think I am addicted to",
+        "I feel like I can't stop doing something, is that addiction?",
+        "How do I know if I'm addicted to something?",
+        "What are some signs of addiction?",
+        "What are some common symptoms of addiction",
+        "Are there any symptoms of addiction?",
+        "What are some signs that my behavior is becoming an addiction?",
+        "Addiction Symptoms",
+        "Symptoms of addiction"
+      ],
+      "responses": [
+        "Feeling like you can't stop doing something despite negative consequences is a common sign of addiction.",
+        "Addiction can involve substances like drugs or alcohol, but it can also involve behaviors like gambling, shopping, or social media use.",
+        "Some signs of addiction may include withdrawal symptoms, continued use despite negative consequences.",
+        "There can be physical symptoms of addiction, such as changes in appetite, sleep disturbances, and physical health problems."
+      ],
+      "context_set": "addiction symptoms"
+    },
+    {
+      "tag": "Addiction Cause",
+      "patterns": [
+        "What are some common causes of addiction?",
+        "Why do some people become addicted while others don't?",
+        "What is the cause of addiction",
+        "Why do people feel addicted to",
+        "Why addiction",
+        "Why does one feel addicted to",
+        "Addiction cause",
+        "I am addicted and why is that?",
+        "Why do i feel so addicted to",
+        "I am suffering from Alcohol consumption",
+        "Cause of addiction"
+      ],
+      "responses": [
+        "The development of addiction is complex and can involve multiple factors interacting in unique ways for each individual",
+        "Addiction can be a result of high levels of dopamine chemical release from brain. Dopamine gives haapy feel after any task hence your brain loves addictions",
+        "Research has shown that genetics can play a role in addiction, and some people may have a greater biological vulnerability to addiction than others.",
+        "Environment can also contribute to addiction, with factors like availability of substances, exposure to stress or trauma, and cultural attitudes toward substance use all playing a role.",
+        "Certain life experiences, like early exposure to drugs or alcohol, chronic stress or trauma, and social isolation or lack of social support, can increase the risk of addiction."
+      ],
+      "context_set": "addiction causes"
+    },
+    {
+      "tag": "Addiction Effects",
+      "patterns": [
+        "What are some of the common effects of addiction?",
+        "Can addiction affect mental health?",
+        "How does addiction impact human?",
+        "Addiction effect",
+        "Effect of addiction"
+      ],
+      "responses": [
+        "Addiction can have a range of negative effects on individuals, including physical, mental, and social consequences.",
+        "Addiction can also have negative impact on mental health, contributing to depression, anxiety and other mental health issues",
+        "Addiction can have a significant impact on family life. Family members might often experience emotional distress, financial strain, and disrupted routines as a result of a loved'one addiction.",
+        "Addiction have affect our physical health, including liver, heart disease, respiratory issues and others."
+      ],
+      "context_set": "addiction effects"
+    },
+    {
+      "tag": "Addiction Remedies",
+      "patterns": [
+        "How can I deal with addiction?",
+        "What are some remedies for addiction?",
+        "Can you suggest some tips to overcome addiction?",
+        "What are some effective ways to deal with addiction?",
+        "How to quit smoking",
+        "How to quit addiction",
+        "How to quit alcohol",
+        "Treatment for curing addictions?",
+        "Addiction Remedies",
+        "Tip for addiction"
+      ],
+      "responses": [
+        "Some effective remedies for addiction include seeking professional help, finding a support group, developing healthy habits, and practicing mindfulness and meditation.",
+        "There is no one-size-fits-all solution for addiction, but some effective remedies include behavioral therapy, medication-assisted treatment, and support from friends and family.",
+        "Overcoming addiction is a difficult journey, but some tips that can help include setting realistic goals, finding healthy activities to replace addictive behaviors, and practicing self-care and self-compassion.",
+        "It's important to seek professional help and support. There are many resources available, including addiction treatment centers, support groups, and hotlines. Remember that recovery is possible, and you are not alone."
+      ],
+      "context_set": "addiction remedies"
+    },
+    {
+      "tag": "Anxiety Definition",
+      "patterns": [
+        "What is anxiety?",
+        "Can you define anxiety?",
+        "I don't understand what anxiety is",
+        "Could you explain anxiety to me?",
+        "Definition of anxiety",
+        "anxiety"
+      ],
+      "responses": [
+        "Anxiety is a feeling of unease, like fear or worry, often accompanied by physical sensations such as trembling or sweating. Everyone will experience the feelings of anxiety at some point in their life. For instance, sitting an exam, job interview etc."
+      ],
+      "context_set": "anxiety definition"
+    },
+    {
+      "tag": "Anxiety Feeling",
+      "patterns": [
+        "I feel so anxious.",
+        "I'm so anxious because of ",
+        "I'm struggling with anxiety",
+        "I feel nervous",
+        "I feel like I am going to have a panic attack",
+        "anxious",
+        "nervous"
+      ],
+      "responses": [
+        "Don't be hard on yourself. Can you tell me more about this feeling",
+        "I understand that it can be scary. Tell me more about it.",
+        "I am sorry to hear that. However, don't let the little worries bring you down. What's the worse that can happen?",
+        "Anxiety is a common condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Anxiety is your body's natural response to stress. It's a feeling of fear about what's to come. But there are ways to overcome it, try taking a walk or counting to 10 slowly."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Anxiety Tips",
+      "patterns": [
+        "How do I cure anxiety",
+        "What can I do to make my anxiety go away",
+        "How do I stop feeling anxious",
+        "Is there any way i can stop anxiety",
+        "How to treat anxiety",
+        "Does anxiety have a cure?",
+        "Tip for anxiety",
+        "Anxiety Tips"
+      ],
+      "responses": [
+        "Don't worry, anxiety can be cured. Start by exercising everyday, drinking a lot of water and eating healthy. Try meditation and deep breathing. Most importantly, get sufficient sleep. Try to avoid alcohol, smoking and caffine as much as possible. You will notice a difference in you mental state within a couple of days.",
+        "Identify the source of your anxiety and address the underlying issue if possible.",
+        "Seek support from trusted friend or family member, or consider reaching out to professional for support."
+      ],
+      "context_set": "anxiety tips"
+    },
+    {
+      "tag": "Anxiety Causes",
+      "patterns": [
+        "What is the cause of anxiety",
+        "Why do people feel anxious",
+        "Why anxious",
+        "Why does one feel anxious",
+        "The cause of anxiety",
+        "Anxiety cause",
+        "I am anxious and why is that?",
+        "Why do i feel anxious",
+        "Cause of anxiety"
+      ],
+      "responses": [
+        "Anxiety can be caused by variety of factors. For example, genetics can be one of the cause of anxiety, which can be passed down through families.",
+        "Personality traits can be a cause also. For example, tendency of overthinking, perfectionism can increase the risk of developing anxiety.",
+        "The use of drugs or alcohol can contribute to anxiety as well.",
+        "Trauma, abuse, stressful life events can also contribute to anxiety."
+      ],
+      "context_set": "anxiety causes"
+    },
+    {
+      "tag": "Anxiety Effects",
+      "patterns": [
+        "The effects of anxiety",
+        "What is the effect of anxiety",
+        "What will happen if anxiety is not treated",
+        "Effect of anxiety",
+        "What will happen if anxious",
+        "Effect caused by anxiety",
+        "Anxiety effect"
+      ],
+      "responses": [
+        "In general, anxiety can have a variety of effects on a person's physical, emotional, and social well-being.",
+        "Another effect is performance of individual is affected, which could lead to decreased productivity and find hard to finish any tasks.",
+        "Sleep disturbances are also a problem caused by anxiety.",
+        "Anxiety also affect people socially, causing them to feel isolated and lonely."
+      ],
+      "context_set": "anxiety effects"
+    },
+    {
+      "tag": "Anxiety Social",
+      "patterns": [
+        "I feel insecure at ",
+        "Feel insecure around people.",
+        "I have social anxiety",
+        "Social anxiety"
+      ],
+      "responses": [
+        "Try to socialise more because only then you will be able to mix up with people. Get together with like minded people who understand you better.",
+        "Talk to your closed ones about your problem. Be it family, friends or even mentors who may guide you to the problem.",
+        "Know your strengths and remember that you are unique in yourself. When some approaches, remember that you need to keep things simple. Often shy people overthink a lot.",
+        "I know it might sound obvious, one way to overcome social anxiety is to socialise.",
+        "Try treatment for social anxiety like cognitive-behavioral therapy (CBT) or medication.",
+        "If you are experiencing symptoms of social anxiety, it is important to seek help from mental health professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Anxiety Social Symptoms",
+      "patterns": [
+        "Anxiety Social Symptoms",
+        "What are some social anxiety symptoms",
+        "Symptoms of social anxiety"
+      ],
+      "responses": [
+        "Common symptoms of social anxiety are Sweating - Rapid Heartbeat - Trembling/Shaking - Find difficulties to speak or think clearly - Avoidance of social situations and more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Covid Definition",
+      "patterns": [
+        "What is COVID-19?",
+        "What does COVID-19 mean?",
+        "Define COVID-19.",
+        "Explain COVID-19.",
+        "Can you tell me about COVID-19?",
+        "What is Coronavirus",
+        "COVID-19",
+        "Coronavirus"
+      ],
+      "responses": [
+        "COVID-19 is an infectious disease caused by the SARS-CoV-2 virus.",
+        "COVID-19 is a respiratory illness that can spread from person to person.",
+        "COVID-19 stands for coronavirus disease 2019",
+        "COVID-19 was first identified in Wuhan, China in December 2019.",
+        "COVID-19 has since become a global pandemic with significant impact on public health and the economy."
+      ],
+      "context_set": "covid definition"
+    },
+    {
+      "tag": "Covid Stress",
+      "patterns": [
+        "I am feeling stressed about COVID-19",
+        "The COVID-19 pandemic is making me anxious and overwhelmed",
+        "I am struggling to cope with the changes brought by COVID-19",
+        "I can't seem to shake off the stress caused by the pandemic",
+        "I am stressed about COVID-19"
+      ],
+      "responses": [
+        "You are not alone in feeling stressed about COVID-19. It's a challenging time for everyone.",
+        "It's important to take care of your mental health during these uncertain times.",
+        "Some things you can do to manage your stress include staying connected with loved ones, practicing self-care, and seeking support if needed.",
+        "Remember to take things one day at a time and focus on what you can control."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cultural Difference Mental Health",
+      "patterns": [
+        "How does culture impact mental health?",
+        "Can cultural differences affect how mental health issues are perceived and treated?",
+        "What are some cultural factors that can influence mental health?",
+        "How do cultural values and beliefs impact mental health?",
+        "Cultural difference mental health"
+      ],
+      "responses": [
+        "Different cultures may have unique views on what is considered normal or abnormal behavior and how mental health issues should be addressed.",
+        "Stigma around mental health can be more prevalent in certain cultures, while others may prioritize seeking help for mental health concerns.",
+        "Some cultural factors that can affect mental health include religious and spiritual beliefs, family dynamics, socioeconomic status, and social support networks.",
+        "Some cultures may emphasize the importance of individualism, while others prioritize collectivism and communal support in managing mental health concerns."
+      ],
+      "context_set": "culture mental health"
+    },
+    {
+      "tag": "Racist Mental Health",
+      "patterns": [
+        "What is racist mental health?",
+        "Can you explain mental health issues specific to racism?",
+        "How does racism affect mental health?",
+        "How do you address racism in mental health treatment?",
+        "Racist mental health"
+      ],
+      "responses": [
+        "Racism can have a significant impact on mental health, causing stress, anxiety, depression, and trauma.",
+        "It refers to the unique mental health challenges faced by individuals who have experienced racism or discrimination.",
+        "Racial minorities often experience disparities in mental health treatment, such as lower rates of access to care and poorer quality of care.",
+        "Some specific mental health issues related to racism include race-based trauma, racial battle fatigue, and racial identity development.",
+        "It's important to acknowledge the impact of racism on mental health and to provide culturally competent care that takes into account the unique experiences of individuals from different racial and ethnic backgrounds."
+      ],
+      "context_set": "racist mental health"
+    },
+    {
+      "tag": "Depression Definition",
+      "patterns": [
+        "What is depression?",
+        "Can you define depression?",
+        "I don't understand what depression is",
+        "Could you explain depression to me?",
+        "Definition of depression",
+        "depression"
+      ],
+      "responses": [
+        "Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, and loss of interest in activities that a person once enjoyed. Other symptoms of depression may include changes in appetite or sleep patterns, difficulty concentrating, and thoughts of self-harm or suicide. If you think you may be experiencing depression, it's important to seek help from a qualified mental health professional.",
+        "Depression is a serious illness that affects millions of people worldwide. It's important to understand that depression is not a sign of weakness or a personal failing, and that there are effective treatments available. If you think you may be experiencing depression, don't hesitate to reach out for help."
+      ],
+      "context_set": "depression definition"
+    },
+    {
+      "tag": "Depressed Feeling",
+      "patterns": [
+        "I feel depressed",
+        "I am so depressed",
+        "I think i'm depressed.",
+        "I have depression",
+        "I'm struggling with depression",
+        "depressed"
+      ],
+      "responses": [
+        "It helps to talk about what's happening. You're going to be okay",
+        "Talk to me. Tell me more. It helps if you open up yourself to someone else.",
+        "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+        "Depression is a serious condition that can be treated. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Depression Tips",
+      "patterns": [
+        "How can I cope with depression",
+        "What are some tips for dealing with depression",
+        "Can you suggest ways to manage depression?",
+        "I feel depressed and don't know what to do",
+        "What can I do with my depression",
+        "I have depression and what can I do with it?",
+        "How to treat depression",
+        "Depression Tips",
+        "Tip for depression"
+      ],
+      "responses": [
+        "Here's a tip that might help alleviate depression: Practise Self-Care, prioritise yourself and engage in activities that make you feel good. Make time for yourself.",
+        "Always seek for professional help if needed, consult with mental health professional to diagnose your condition and provide appropriate treatment.",
+        "Try to maintain connections with others. Reach out to friends, family or any support groups to build a social network that can provide emotional support.",
+        "Exercise and eat balanced diet also help with alleviating depression.",
+        "Be patient. Depression is a complex mental illness and it takes time to recover. Be patient with yourself and remember that any progress is still progress.",
+        "Limit any alcohol and drug usage."
+      ],
+      "context_set": "depression tips"
+    },
+    {
+      "tag": "Depression Causes",
+      "patterns": [
+        "What is the cause of depression",
+        "Why do people feel depressed",
+        "Why depressed",
+        "Why does one feel depressed",
+        "The cause of depression",
+        "Depression cause",
+        "I am depressed and why is that?"
+      ],
+      "responses": [
+        "Depression can be caused by other chronic illnesses like heart disease, diabetes or cancer.",
+        "Alcohol and drug abuse can lead to depression due to brain chemistry caused by it.",
+        "Loneliness or lack of social support can also be one of the causes of depression.",
+        "Trauma or any traumatic events such as the death of a loved one can also trigger depression.",
+        "Please note that the causes of depression can vary from person to person. One general cause is biological factors. Genetics may play a role in depression, it tends to run in families."
+      ],
+      "context_set": "depression cause"
+    },
+    {
+      "tag": "Depression Symptoms",
+      "patterns": [
+        "What are the symptoms of depression",
+        "Symptoms of depression",
+        "Depression symptoms",
+        "Symptoms of depression"
+      ],
+      "responses": [
+        "Here is one more: Feeling of worthlessness.",
+        "Here is one more: Insomnia or excessive sleeping.",
+        "Here is one more: Loss of interest in activities.",
+        "Here is one more: Thoughts of suicide/death/self-harm.",
+        "Here is one more: Fatigue, decreased energy.",
+        "Here is one more: Health problems like headaches, back pain etc.",
+        "It is important to note that experience one of more of these symptoms does not necessarily mean you are depressed. Here is a common symptom of depression, people tend to have persistent feelings sadness, emptiness or hopelessness."
+      ],
+      "context_set": "depression symptoms"
+    },
+    {
+      "tag": "Depression Effects",
+      "patterns": [
+        "The effects of depression",
+        "What is the effect of depression",
+        "What will happen if depression is not treated",
+        "Effect of depression",
+        "What will happen if depressed",
+        "Effect caused by depression",
+        "Depression effect"
+      ],
+      "responses": [
+        "It also affect one's ability to think, concentrate, decision making and overall behaviour/performance.",
+        "It can cause problems like fatigue, sleep problem, headache, change in appetite and more.",
+        "People with depression tend to withdraw themselves from others, lack of interest and more.",
+        "Depression can have significant impact on a person's life. For example, Depression can cause emotional symptoms like sadness, hopelessness, anxiety and more."
+      ],
+      "context_set": "depression effects"
+    },
+    {
+      "tag": "Eating Disorders",
+      "patterns": [
+        "What are eating disorders?",
+        "Can you explain more about eating disorders?",
+        "What does the term 'Eating disorders' mean?",
+        "Eating disorders"
+      ],
+      "responses": [
+        "Eating disorders are a range of psychological conditions characterized by abnormal or disturbed eating habits.",
+        "The most common eating disorders are anorexia nervosa, bulimia nervosa, binge-eating disorder, pica.",
+        "Symptoms of eating disorders may include distorted body image, intense fear of gaining weight, obsessive thinking about food and weight, and compulsive behaviors related to food and eating.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has an eating disorder.",
+        "Treatment for eating disorders may involve therapy, medication, and support groups.",
+        "Eating disorders can have serious consequences on a person's physical and mental health, including malnutrition, dehydration, heart problems, depression, and anxiety."
+      ],
+      "context_set": "eating disorders"
+    },
+    {
+      "tag": "Bipolar Disorder",
+      "patterns": [
+        "What is bipolar disorder?",
+        "Can you explain more about bipolar disorders?",
+        "What does the term 'Bipolar disorder' mean?",
+        "Bipolar disorder"
+      ],
+      "responses": [
+        "Bipolar disorder is a mental illness that causes extreme shifts in mood, energy, and activity levels.",
+        "Symptoms of bipolar disorder include episodes of mania or hypomania, and episodes of depression.",
+        "Diagnosis of bipolar disorder usually involves a mental health evaluation, and treatment often involves medication and therapy.",
+        "While there is no cure for bipolar disorder, it can be managed with medication, therapy, and lifestyle changes.",
+        "Some ways to manage bipolar disorder include maintaining a regular sleep schedule, avoiding drugs and alcohol, and practicing stress-reduction techniques.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has bipolar disorder."
+      ],
+      "context_set": "bipolar disorder"
+    },
+    {
+      "tag": "Obsessive-compulsive disorder OCD",
+      "patterns": [
+        "What is Obsessive-compulsive disorder",
+        "What is OCD",
+        "Can you explain more about Obsessive-compulsive disorder",
+        "Can you explain more about OCD",
+        "What does the term 'Obsessive-compulsive disorder' mean?",
+        "What does the term 'OCD' mean?",
+        "Obsessive-compulsive disorder",
+        "Obsessive compulsive disorder",
+        "OCD"
+      ],
+      "responses": [
+        "Common symptoms of OCD include excessive cleaning or handwashing, compulsive counting or checking, and intrusive thoughts.",
+        "The exact cause of OCD is not known, but it is believed to involve a combination of genetic, environmental, and neurological factors.",
+        "Treatment for OCD often involves a combination of medication and therapy, such as cognitive-behavioral therapy.",
+        "OCD is a mental disorder characterized by recurrent and unwanted thoughts or sensations (obsessions) and repetitive behaviors or mental acts (compulsions)."
+      ],
+      "context_set": "ocd"
+    },
+    {
+      "tag": "Post-traumatic stress disorder PTSD",
+      "patterns": [
+        "What is Post-traumatic stress disorder",
+        "What is PTSD",
+        "Can you explain more about Post-traumatic stress disorder",
+        "Can you explain more about PTSD",
+        "What does the term 'Post-traumatic stress disorder' mean?",
+        "What does the term 'PTSD' mean?",
+        "Post-traumatic stress disorder",
+        "Post traumatic stress disorder",
+        "PTSD"
+      ],
+      "responses": [
+        "Post-traumatic stress disorder (PTSD) is a mental health condition that some people develop after experiencing or witnessing a traumatic event.",
+        "PTSD symptoms can include flashbacks, nightmares, severe anxiety, and uncontrollable thoughts about the traumatic event.",
+        "Treatment for PTSD often includes therapy, medication, or a combination of both.",
+        "PTSD can be caused by a variety of traumatic events, such as military combat, sexual or physical assault, a serious accident, or a natural disaster.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has PTSD."
+      ],
+      "context_set": "ptsd"
+    },
+    {
+      "tag": "Schizophrenia",
+      "patterns": [
+        "What is Schizophrenia",
+        "Can you explain more about Schizophrenia",
+        "What does the term 'Schizophrenia' mean?",
+        "Schizophrenia"
+      ],
+      "responses": [
+        "Schizophrenia is a serious mental disorder that affects how a person thinks, feels, and behaves. It can cause delusions, hallucinations, disordered thinking, and other symptoms that can be disabling.",
+        "The symptoms of schizophrenia can vary from person to person, but some common symptoms include hallucinations, delusions, disorganized thinking, and abnormal behaviors.",
+        "The exact cause of schizophrenia is not known, but research suggests that a combination of genetic, environmental, and brain chemistry factors may be involved.",
+        "Schizophrenia is typically treated with a combination of medication, therapy, and support services. While there is no cure for schizophrenia, treatment can help manage symptoms and improve overall quality of life.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has Schizophrenia."
+      ],
+      "context_set": "schizophernia"
+    },
+    {
+      "tag": "Borderline personality disorder",
+      "patterns": [
+        "What is Borderline personality disorder",
+        "Can you explain more about Borderline personality disorder",
+        "What does the term 'Borderline personality disorder' mean?",
+        "Borderline personality disorder"
+      ],
+      "responses": [
+        "Borderline Personality Disorder is a mental health disorder characterized by unstable moods, relationships, and self-image.",
+        "Symptoms of Borderline Personality Disorder can include fear of abandonment, impulsivity, intense emotional swings, and unstable relationships.",
+        "Treatment often includes therapy, medication, and self-help strategies.",
+        "There is no cure for Borderline Personality Disorder, but symptoms can be managed with treatment.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has Borderline personality disorder."
+      ],
+      "context_set": "borderline personality disorder"
+    },
+    {
+      "tag": "Psychotic disorders",
+      "patterns": [
+        "What is Psychotic disorders",
+        "Can you explain more about Psychotic disorders",
+        "What does the term 'Psychotic disorders' mean?",
+        "Psychotic disorders"
+      ],
+      "responses": [
+        "Psychotic disorders are a group of mental health conditions that affect a person's ability to think clearly, communicate effectively, and perceive reality accurately. They may experience delusions, hallucinations, disordered thinking, and abnormal behaviors.",
+        "It is important to seek help from a healthcare professional if you think you or someone you know has an Psychotic Disorder.",
+        "It's important to educate yourself about the condition, communicate openly and honestly with your loved one, and seek support from a mental health professional or support group."
+      ],
+      "context_set": "psychotic disorders"
+    },
+    {
+      "tag": "Disorders",
+      "patterns": [
+        "What is disorders",
+        "Can you explain about mental health disorders",
+        "Mental Health disorders",
+        "List of mental health disorders"
+      ],
+      "responses": [
+        "I know a few disorders related to mental health. Eating Disorders, Bipolar Disorder, Obsessive-compulsive disorder (OCD), Post-traumatic stress disorder (PTSD), Schizophrenia, Borderline personality disorder, Psychotic disorders."
+      ],
+      "context_set": "disorders"
+    },
+    {
+      "tag": "Grief and Loss",
+      "patterns": [
+        "My mom died",
+        "My brother died",
+        "My dad passed away",
+        "My sister passed away",
+        "Someone in my family died",
+        "My friend passed away",
+        "I lost someone",
+        "I'm grieving the loss of a friend"
+      ],
+      "responses": [
+        "I'm sorry to hear that. If you want to talk about it. I'm here.",
+        "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.",
+        "My condolences. I'm here if you need to talk.",
+        "I'm so sorry for your loss. It's natural to feel some anxiety after losing a loved one. In fact, people often feel a range of emotions. Sadness, guilt, as well as anxiety. Some important things you can do: Talk to friends. Try and share your feelings with the people close to you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Grief and Loss Tips",
+      "patterns": [
+        "Can you provide tips for coping with grief and loss?",
+        "How can I deal with the pain of losing someone I love?",
+        "I'm struggling with grief and could use some advice, do you have any tips?",
+        "How do I deal with grief?",
+        "How can I cope with loss?",
+        "What are some tips for managing grief?",
+        "I'm struggling with the loss of a loved one, what can I do?",
+        "How can I support someone who is grieving?",
+        "Grief and loss tips",
+        "Tip for grief and loss"
+      ],
+      "responses": [
+        "Some tips include staying connected with loved ones, taking care of your physical health, finding ways to express your emotions, and seeking professional help if needed.",
+        "If someone you know is grieving, there are things you can do to support them. Some tips include being there to listen, offering practical help with tasks, and letting them know you are thinking of them. It's important to be patient and understanding during this difficult time.",
+        "It's important to give yourself time to grieve and seek support from others.",
+        "Grief is a natural response to loss and can be a difficult and painful process. Some tips for managing grief include seeking support from loved ones or a therapist, allowing yourself to feel your emotions, practicing self-care, and finding ways to honor your loved one's memory."
+      ],
+      "context_set": "grief and loss tips"
+    },
+    {
+      "tag": "Loneliness Feeling",
+      "patterns": [
+        "I am feeling lonely",
+        "I am so lonely",
+        "I feel lonely",
+        "I'm lonely",
+        "I don't have anyone to talk to",
+        "I don't have friends",
+        "I don't have any friends",
+        "I don't have family",
+        "I'm always alone",
+        "Lonely",
+        "Loneliness",
+        "I've been feeling lonely lately",
+        "Why am I feeling lonely?"
+      ],
+      "responses": [
+        "Loneliness is a common feeling, but it's important to remember that there are people who care about you. Talk to them or give them a call.",
+        "Loneliness can be difficult to cope with, but it's important to remember that there are many ways to find support and connect with others.",
+        "It's understandable to feel lonely at times. Would you like to talk about why you're feeling this way?",
+        "Loneliness can be a difficult feeling to deal with. Have you considered talking to a therapist or counselor about your feelings? They may be able to help you work through them.",
+        "You're not alone in feeling lonely. It's a common feeling that many people experience. "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Loneliness Tips",
+      "patterns": [
+        "How to deal with loneliness",
+        "Coping with loneliness",
+        "Tips for overcoming loneliness",
+        "What can I do to feel less lonely?",
+        "Strategies for combating loneliness",
+        "What can I do with my loneliness",
+        "I feel lonely and what can I do?",
+        "Loneliness Tips",
+        "Tips for loneliness"
+      ],
+      "responses": [
+        "Join a club or group that interests you, whether it's a sports team, book club, or volunteer organization.",
+        "Consider getting a pet, as they can provide companionship and help alleviate feelings of loneliness.",
+        "Take up a new hobby or activity that you enjoy, such as painting, hiking, or playing an instrument.",
+        "Embrace yourself. Practice self-care activities, such as exercise, meditation, or yoga, to help reduce stress and improve your mental health.",
+        "Seek professional help if you're struggling with persistent feelings of loneliness or depression. A therapist or counselor can provide support and guidance in coping with these emotions.",
+        "Reach out to friends and family members regularly, even if it's just a quick phone call or text message."
+      ],
+      "context_set": "loneliness tips"
+    },
+    {
+      "tag": "Loneliness Causes",
+      "patterns": [
+        "What are the causes of loneliness?",
+        "Why do people feel lonely?",
+        "I don't understand why I feel so lonely. What could be causing it?",
+        "Why lonely",
+        "Loneliness Causes",
+        "Causes of loneliness"
+      ],
+      "responses": [
+        "Loneliness can also be caused by major life transitions like divorce, loss of a loved one, or retirement.",
+        "Identifying the specific cause of your loneliness can be helpful in finding effective solutions and strategies to address it. Consider seeking support from a mental health professional or joining a support group to learn more.",
+        "There are many possible causes of loneliness, including social isolation, living alone, lack of social skills or support, cultural or language barriers, and mental health issues like depression or anxiety."
+      ],
+      "context_set": "loneliness causes"
+    },
+    {
+      "tag": "Loneliness Effects",
+      "patterns": [
+        "What are the effects of loneliness?",
+        "How does loneliness affect me?",
+        "I feel lonely, what are the potential effects on my well-being?",
+        "Effect of loneliness",
+        "Loneliness effect",
+        "What will happen if loneliness is not treated"
+      ],
+      "responses": [
+        "Research has shown that prolonged loneliness can negatively impact brain health and cognitive function, increasing the risk of dementia and Alzheimer's disease.",
+        "Loneliness can also affect social skills and lead to decreased motivation and productivity.",
+        "Loneliness can have various effects on a person's mental and physical health. Some potential effects include depression, anxiety, high blood pressure, weakened immune system, sleep problems, and increased risk of substance abuse."
+      ],
+      "context_set": "loneliness effects"
+    },
+    {
+      "tag": "Medication Options",
+      "patterns": [
+        "What medications are used to treat mental health disorders?",
+        "Can you recommend some medications for mental health?",
+        "What treatment options are available?",
+        "Treatment Options",
+        "Medication Options"
+      ],
+      "responses": [
+        "There are many medications used to treat mental health disorders, including antidepressants, antipsychotics, mood stabilizers, and anti-anxiety medications. It's important to consult with a mental health professional to determine the best course of treatment for your specific condition.",
+        "Some commonly prescribed medications for mental health include SSRIs, such as Prozac and Zoloft, and atypical antipsychotics, such as Abilify and Seroquel. However, every individual is different, and what works for one person may not work for another. It's important to work closely with your healthcare provider to find the right medication and dosage for you.",
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you."
+      ],
+      "context_set": "medication options"
+    },
+    {
+      "tag": "Medication Tips",
+      "patterns": [
+        "How do I start a new medication?",
+        "What should I do before taking a new medication?",
+        "I'm starting a new medication, what should I expect?",
+        "How can I make sure I'm taking my new medication correctly?",
+        "What are some tips for starting a new medication?",
+        "Tips for medication",
+        "Medication tips"
+      ],
+      "responses": [
+        "Before starting a new medication, make sure to read the label and any accompanying materials. Take note of the dosage, how often to take the medication, and any special instructions.",
+        "It's important to take your new medication exactly as prescribed. If you have any questions or concerns, don't hesitate to ask your doctor or pharmacist.",
+        "Keep track of any side effects or changes in your symptoms after starting a new medication. Let your doctor know if you experience anything unusual or concerning.",
+        "Starting a new medication can be daunting, but remember that your doctor prescribed it to help you. With proper care and attention, you can take your new medication safely and effectively.",
+        "It's important to talk to your doctor or pharmacist before starting a new medication. They can tell you how to take the medication, what to expect, and any side effects to watch for."
+      ],
+      "context_set": "medication tips"
+    },
+    {
+      "tag": "Medication Effect",
+      "patterns": [
+        "What are the effects of medication on mental health?",
+        "Can medication have side effects on mental health?",
+        "Medication effect",
+        "Effect of Medication"
+      ],
+      "responses": [
+        "Medication can have both positive and negative effects on mental health, depending on the specific medication and individual response. Some medications can help alleviate symptoms of mental health conditions, while others may cause side effects or not work as effectively. It's important to discuss the potential effects of medication with a healthcare professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Definition",
+      "patterns": [
+        "What does mental health mean?",
+        "Define mental health",
+        "Explain mental health",
+        "What is mental health",
+        "Mental Health definition"
+      ],
+      "responses": [
+        "Mental health refers to our overall psychological well-being. It encompasses our emotional, cognitive, and behavioral states and affects how we think, feel, and act in our daily lives.",
+        "Mental health is the state of our emotional and psychological well-being, and it affects how we perceive ourselves and the world around us. It involves our ability to cope with stress, handle challenges, and form positive relationships.",
+        "Mental health is an important component of our overall health and wellness. It affects our ability to function in our personal and professional lives and impacts our physical health as well. Good mental health means being able to manage stress, form healthy relationships, and maintain a positive outlook on life."
+      ],
+      "context_set": "mental health definition"
+    },
+    {
+      "tag": "Mental Health Illness",
+      "patterns": [
+        "What is mental health illness?",
+        "Define mental health illness.",
+        "Can you explain mental health illness?",
+        "What does mental health illness mean?",
+        "Mental health Illness",
+        "Mental illness"
+      ],
+      "responses": [
+        "Mental health illness refers to a wide range of mental health conditions or disorders that affect a person's mood, thinking, behavior, and overall well-being. These conditions can include anxiety disorders, mood disorders, personality disorders, psychotic disorders, eating disorders, and many others.",
+        "Mental health illness is a term used to describe a variety of conditions that can affect a person's mental and emotional well-being. These conditions can range from mild to severe and can include depression, bipolar disorder, schizophrenia, and many others. The symptoms and severity of mental health illnesses can vary widely from person to person.",
+        "Mental health illness refers to a range of conditions that can affect a person's emotional and psychological well-being. These conditions can be caused by a variety of factors, including genetic, environmental, and social factors. Some common mental health illnesses include depression, anxiety disorders, and bipolar disorder, among others. It is important to seek help if you suspect you may be experiencing a mental health illness."
+      ],
+      "context_set": "mental health illness"
+    },
+    {
+      "tag": "Mental Health Illness List",
+      "patterns": [
+        "What are some mental health illnesses?",
+        "Can you give me a list of mental health illnesses?",
+        "What are the different types of mental health illnesses?",
+        "Mental Health Illness list"
+      ],
+      "responses": [
+        "There are many different types of mental health illnesses, including mood disorders, anxiety disorders, psychotic disorders, personality disorders, and eating disorders.",
+        "Mental health illnesses can take many forms, including depression, anxiety, bipolar disorder, schizophrenia, borderline personality disorder, and many others.",
+        "The list of mental health illnesses is extensive and varied, but some common ones include depression, anxiety, bipolar disorder, schizophrenia, and eating disorders.",
+        "Mental health illnesses can manifest in different ways, such as mood disorders, anxiety disorders, personality disorders, psychotic disorders, and eating disorders.",
+        "Some common mental health disorders include depression, anxiety, bipolar disorder, schizophrenia, obsessive-compulsive disorder, post-traumatic stress disorder, and eating disorders."
+      ],
+      "context_set": "mental health illness list"
+    },
+    {
+      "tag": "Mental Health Illness Target",
+      "patterns": [
+        "Who does mental illness affect?",
+        "Who is affected by mental illness?",
+        "Who is at risk of mental illness?",
+        "Who is likely to get mental illness?",
+        "Mental health illness target"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Illness Sign",
+      "patterns": [
+        "What are some of the warning signs of mental illness?",
+        "Mental Health illness sign"
+      ],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. In adults: Confused thinking - Long-lasting sadness or irritability - Extreme highs and lows in mood - Excessive fear, worrying, or anxiety - Social withdrawal - Dramatic changes in eating or sleeping habits - Strong feelings of anger - Delusions or hallucinations (seeing or hearing things that are not really there) - Increasing inability to cope with daily problems and activities - Thoughts of suicide - Denial of obvious problems - Many unexplained physical problems - Abuse of drugs and/or alcohol",
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. In older children and pre-teens: - Abuse of drugs and/or alcohol - Inability to cope with daily problems and activities - Changes in sleeping and/or eating habits - Excessive complaints of physical problems - Defying authority, skipping school, stealing, or damaging property - Intense fear of gaining weight - Long-lasting negative mood, often along with poor appetite and thoughts of death - Frequent outbursts of anger",
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. In younger children: - Changes in school performance - Poor grades despite strong efforts - Excessive worrying or anxiety - Hyperactivity - Persistent nightmares - Persistent disobedience and/or aggressive behavior - Frequent temper tantrums"
+      ],
+      "context_set": "mental health illness sign"
+    },
+    {
+      "tag": "Mental Health Awareness",
+      "patterns": [
+        "What is mental health awareness?",
+        "Why is mental health awareness important?",
+        "How can we raise awareness about mental health?",
+        "What are some ways to promote mental health awareness?",
+        "Mental Health Awareness"
+      ],
+      "responses": [
+        "Mental health awareness involves educating people about the importance of mental health, as well as reducing the stigma associated with mental illness.",
+        "Mental health awareness is important because it helps to reduce stigma and discrimination, promotes early intervention, and encourages people to seek help when they need it.",
+        "We can raise awareness about mental health by sharing information and resources, organizing events and activities, and engaging with the community.",
+        "Some ways to promote mental health awareness include creating a safe and supportive environment, providing access to resources and support, and encouraging people to speak openly about their mental health."
+      ],
+      "context_set": "mental health awareness"
+    },
+    {
+      "tag": "Mental Health Importance",
+      "patterns": [
+        "Why is mental health important",
+        "Importance of mental health",
+        "mental health and well-being"
+      ],
+      "responses": [
+        "Mental health is important for overall well-being, as it affects how we think, feel, and behave. Good mental health allows individuals to cope with daily stresses and challenges, build relationships, and enjoy life."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Treatment",
+      "patterns": [
+        "What are the treatment options for mental health?",
+        "Can mental health issues be treated?",
+        "How is mental illness treated?",
+        "Treatment for mental health illness"
+      ],
+      "responses": [
+        "There are several types of treatment available for mental health issues, including medication, therapy, and lifestyle changes.",
+        "Yes, mental health issues can be treated, and early intervention can greatly improve outcomes.",
+        "Mental illness is treated through a combination of medication, therapy, and support services tailored to each individual's needs.",
+        "Mental health treatment involves a collaborative approach between healthcare professionals and the individual, with the aim of improving symptoms, reducing distress, and improving quality of life."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care",
+      "patterns": [
+        "What is mental health care?",
+        "Define mental health care",
+        "Mental Health care"
+      ],
+      "responses": [
+        "Mental health care refers to the services and support provided to individuals to improve their mental health and well-being. This can include therapy, medication, support groups, and other resources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Topics",
+      "patterns": [
+        "What are some mental health topics that you talk about?",
+        "Mental Health topics",
+        "Any topics related to mental health?"
+      ],
+      "responses": [
+        "I do provide topics about mental health. Please check it out by clicking the button 'Topics' down there by the tab."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care Access",
+      "patterns": [
+        "How can I access mental health care services?",
+        "Where can I get the access to mental health care services?",
+        "Mental Health care access"
+      ],
+      "responses": [
+        "Mental health care services can be accessed through mental health clinics, hospitals, community health centers, and private practices. You can also seek help through hotlines, crisis centers, and online resources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care Type",
+      "patterns": [
+        "What are the different types of mental health care providers?",
+        "Types of mental health care"
+      ],
+      "responses": [
+        "Mental health care providers include psychiatrists, psychologists, licensed clinical social workers, counselors, and other mental health professionals. They work together to provide comprehensive care tailored to your needs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care Ways",
+      "patterns": [
+        "How can mental health care help me with my condition?",
+        "How can mental health care help me?"
+      ],
+      "responses": [
+        "Mental health care can help you manage your symptoms, cope with life stressors, improve your quality of life, and achieve your goals. It can also provide you with the tools and resources to prevent relapse and maintain your mental wellness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care Quiz",
+      "patterns": [
+        "Is there a quiz for mental health?",
+        "Can I try mental health test?",
+        "Do you have assessment about mental health?",
+        "Mental Health Quiz",
+        "Mental Health Test",
+        "Mental Health Assessment"
+      ],
+      "responses": [
+        "I do have some tests about mental health. Please check it out by clicking the button 'Test' down there by the tab."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental Health Care Benefits",
+      "patterns": [
+        "The benefits of mental health care",
+        "The advantages of mental health care",
+        "What can mental health care do me good?"
+      ],
+      "responses": [
+        "The benefits of mental health care are numerous and can include improved mood, increased self-awareness, better relationships, reduced symptoms, and increased overall life satisfaction. Mental health care can also help you address underlying issues that may be contributing to your mental health concerns."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mental health Causes",
+      "patterns": [
+        "What are the causes of mental health problems?",
+        "What factors can contribute to mental health issues?",
+        "Why do people suffer from mental health disorders?",
+        "What are some common triggers for mental health conditions?",
+        "Can you tell me more about the root causes of mental health illnesses?",
+        "Mental Health causes"
+      ],
+      "responses": [
+        "The causes of mental health issues can be complex and often involve a combination of factors, such as trauma, stress, abuse, substance abuse, and social isolation.",
+        "There is no single cause of mental health problems, but some of the factors that can contribute to their development include a family history of mental illness, chronic illness or pain, and significant life changes or stressors.",
+        "Mental health disorders can arise from a variety of factors, including biological factors, environmental factors, and psychological factors.",
+        "The root causes of mental health conditions can vary depending on the individual, but some common factors include genetic predisposition, childhood trauma, chronic stress, and substance abuse.",
+        "Mental health problems can have a range of causes, including genetic factors, brain chemistry imbalances, life experiences, and environmental factors."
+      ],
+      "context_set": "mental health causes"
+    },
+    {
+      "tag": "Mental Health Promotion",
+      "patterns": [
+        "How can I promote mental health?",
+        "How do I raise awareness about mental health?",
+        "Can you suggest some mental health promotion strategies?",
+        "How to promote mental health awareness",
+        "Mental Health Promotion"
+      ],
+      "responses": [
+        "You can promote mental health awareness by starting conversations about mental health, sharing stories and experiences, and participating in mental health campaigns and events.",
+        "Raising awareness about mental health can help reduce stigma and discrimination, and encourage people to seek support and treatment. This can be done through social media, community events, and mental health resources.",
+        "Mental health awareness is important because it can help reduce the negative attitudes and beliefs that surround mental illness, and encourage people to seek help and support when they need it. It can also promote positive mental health practices and improve overall well-being.",
+        "Mental health awareness can be promoted through education, communication, and advocacy. This includes sharing information about mental health, reducing stigma and discrimination, and encouraging people to seek help when they need it."
+      ],
+      "context_set": "mental health promotion"
+    },
+    {
+      "tag": "Mental Health Prevention",
+      "patterns": [
+        "How can I prevent mental health problems?",
+        "What are some ways to prevent mental illness?",
+        "Is there anything I can do to protect my mental health?",
+        "How can I avoid developing mental health issues?",
+        "Mental Health problem prevention"
+      ],
+      "responses": [
+        "Learning coping skills and stress management techniques can help you manage difficult situations before they become overwhelming and lead to mental health issues.",
+        "Building strong social connections and seeking support when you need it can help prevent isolation and loneliness, which are risk factors for mental illness.",
+        "Avoiding or reducing substance use, such as alcohol and drugs, can help prevent mental health problems.",
+        "Addressing and managing any underlying health conditions, such as diabetes or hypertension, can help prevent mental health problems that may be related.",
+        "Seeking professional help early, before symptoms become severe, can help prevent mental health problems from becoming more serious.",
+        "Taking care of your physical health by exercising, eating well, and getting enough sleep can help prevent mental health problems."
+      ],
+      "context_set": "mental health prevention"
+    },
+    {
+      "tag": "Mental Health Service Available Malaysia",
+      "patterns": [
+        "What mental health services are available in Malaysia",
+        "Are there any mental health services I can use in Malaysia?",
+        "Can you recommend any mental health services in Malaysia?",
+        "I need help finding mental health services in Malaysia.",
+        "Mental health services in Malaysia"
+      ],
+      "responses": [
+        "In Malaysia, Malaysian Mental Health Association has been a important part of mental health in Malaysia. Website: https://mmha.org.my - Contact: +603-27806803/+6017-6133039",
+        "Click on the SOS button up there to find out more about mental health service in Malaysia."
+      ],
+      "context_set": "service in malaysia"
+    },
+    {
+      "tag": "Mental Health Service Available More",
+      "patterns": [
+        "What mental health services are available",
+        "Are there any mental health services I can use?",
+        "Can you recommend any mental health services?",
+        "I need help finding mental health services."
+      ],
+      "responses": [
+        "There are many mental health services available, such as therapy, counseling, and support groups. You can start by talking to your healthcare provider, searching online for local resources, or contacting a mental health hotline for assistance.",
+        "Mental health services can include medication management, psychotherapy, crisis intervention, and peer support. To find services in your area, you can contact your health insurance provider, local community health center, or search online for resources.",
+        "There are a variety of mental health services available depending on your needs and location. Some examples include outpatient therapy, inpatient treatment, and group therapy. You can find more information and resources by contacting a mental health hotline or visiting a mental health organization's website.",
+        "Mental health services can be found in many different settings, such as hospitals, community health centers, and private practices. You can ask your healthcare provider for a referral, search online for resources, or contact a mental health organization for assistance.",
+        "Mental health services can be crucial for maintaining and improving mental well-being. Some common types of services include therapy, counseling, and medication management. To find mental health services in your area, you can contact a mental health hotline or search online for local resources."
+      ],
+      "context_set": "mental health service available"
+    },
+    {
+      "tag": "Mental Health Tips",
+      "patterns": [
+        "Tell me tips about mental health",
+        "What are some tips for improving mental health?",
+        "Can you give me some mental health tips?",
+        "Mental Health tips",
+        "How to improve my mental health",
+        "What are some ways to boost mental health?"
+      ],
+      "responses": [
+        "Here are some tips for taking care of your mental health: get enough sleep, manage stress, practice mindfulness or meditation, set realistic goals, engage in activities that bring you joy.",
+        "Taking care of your mental health is important, here are some tips to help you do so: engage in regular physical activity, make time for hobbies or relaxation, seek social support, practice gratitude, and prioritize your mental health needs.",
+        "Here are some tips for improving your mental health: practice self-care, stay active, eat a balanced diet, stay connected with loved ones, seek professional help if needed."
+      ],
+      "context_set": "mental health tips"
+    },
+    {
+      "tag": "Mental Health Facts",
+      "patterns": [
+        "Tell me a fact about mental health",
+        "Tell me another fact about mental health",
+        "Mental Health fact"
+      ],
+      "responses": [
+        "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
+        "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
+        "Depression is the leading cause of disability worldwide."
+      ],
+      "context_set": "mental health facts"
+    },
+    {
+      "tag": "Feeling Worthless",
+      "patterns": [
+        "I feel so worthless.",
+        "Everything I do seems pointless",
+        "I can't do anything.",
+        "I am so useless",
+        "I don't see the point in anything",
+        "Worthless"
+      ],
+      "responses": [
+        "It sounds like you're going through a tough time right now. Remember that your worth is not defined by your productivity or what you can do for others.",
+        "It's important to remember that everyone has value and worth, regardless of what they do or accomplish. You are important and deserving of love and respect.",
+        "I first want to let you know that you are not alone in your feelings and there is always someone there to help . You can always change your feelings and change your way of thinking by being open to trying to change.",
+        "Feeling worthless can be a symptom of depression or other mental health issues. Consider speaking to a therapist or mental health professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Happy",
+      "patterns": [
+        "I feel happy today.",
+        "I am happy.",
+        "I feel happy.",
+        "I'm doing good",
+        "I'm good.",
+        "Cheerful",
+        "I feel good these days",
+        "I feel like I'm on top of the world, I'm so happy",
+        "Good",
+        "Happy",
+        "Nice"
+      ],
+      "responses": [
+        "That's geat to hear. I'm glad you're feeling this way.",
+        "That's wonderful to hear! I am happy too because of you.",
+        "I'm glad to hear that you're feeling happy. Keep doing whatever you're doing that's making you feel that way!",
+        "It's great to hear that you're feeling happy. Enjoy it while it lasts!",
+        "That's awesome! Keep focusing on the positive things in your life that bring you happiness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Awful",
+      "patterns": [
+        "I feel awful today.",
+        "I am in a bad mood.",
+        "I feel awful.",
+        "Feeling awful",
+        "Today is not my day",
+        "I feel terrible"
+      ],
+      "responses": [
+        "It's okay to not be okay. Take some time for yourself and reach out to someone you trust.",
+        "Remember that it's okay to ask for help. There are resources and support available to you.",
+        "I'm here for you, and I believe in you.",
+        "I'm sorry to hear that you're feeling awful. Can you tell me more about what's going on?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Scared",
+      "patterns": [
+        "I'm scared",
+        "I am feeling scread",
+        "Scared and don't know what to do",
+        "Scared"
+      ],
+      "responses": [
+        "I understand that feeling scared can be overwhelming. It's important to remember that you don't have to face your fear alone. There are many resources available to help you cope with your fear, such as support groups and counseling services.",
+        "I'm sorry to hear that you're feeling scared. It's normal to feel scared sometimes, but it's important to find ways to cope with it.",
+        "It's okay to feel scared. When we're scared, our body is trying to protect us from harm. However, if your fear is impacting your daily life, consider talking to a therapist or counselor about your fear."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Bored",
+      "patterns": [
+        "I'm so bored",
+        "I feel bored",
+        "I'm feeling uninterested",
+        "I'm feeling restless and uninterested",
+        "Everything is so dull"
+      ],
+      "responses": [
+        "Boredom is a common feeling, but there are things you can do to change it. Try finding a new hobby or activity to do!",
+        "Sometimes feeling bored can be a sign that we need a change of pace. Take a break. Relax!",
+        "It's okay to have moments of boredom, but if you find it happening frequently, it might be worth exploring what changes you can make in your life to bring more excitement and fulfillment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Tired",
+      "patterns": [
+        "I feel tired",
+        "I'm feeling fatigued",
+        "I'm feeling exhausted",
+        "I can't seem to shake off this fatigue",
+        "Tired",
+        "Exhausted"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling tired. It's important to take care of yourself and get enough rest.",
+        "Feeling tired can be a sign that your body needs more rest. You might want to try going to bed earlier or taking a short nap during the day if possible.",
+        "Fatigue can also be caused by underlying health issues, so if you continue to feel tired despite getting enough rest, you might want to consult a doctor to rule out any underlying medical conditions.",
+        "It's also important to make sure you're staying hydrated and eating a healthy diet, as these can affect your energy levels."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Demotivated",
+      "patterns": [
+        "I am feeling demotivated",
+        "I don't feel like doing anything",
+        "I can't seem to find motivation to do anything",
+        "I'm demotivated",
+        "I am struggling with lack of motivation",
+        "Demotivated"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling demotivated. Sometimes it can be difficult to find motivation when we're feeling down or stuck. Try taking a break or do something you enjoy to help boost your mood.",
+        "It's understandable to feel demotivated at times, but it's important to remember that it won't last forever. You can try setting small goals for yourself or breaking down larger tasks into more manageable steps to help build momentum and motivation.",
+        "Demotivation is a common feeling, and it's okay to ask for help or support. Have you tried reaching out to friends, family, or a support group for encouragement and motivation? Remember, you are not alone in this.",
+        "Feeling demotivated can be frustrating, but it's important to be kind to yourself and remember that it's okay to take a break when you need it. You can try to change your environment or routine, or find inspiration from others who have overcome similar challenges.",
+        "Demotivation can be tough to overcome, but remember that it's okay to take it slow and focus on self-care. Try talking to someone about how you're feeling or seeking professional help if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Guilty",
+      "patterns": [
+        "I'm feeling guilty",
+        "Why do I feel guilty all the time?",
+        "I can't stop feeling guilty",
+        "I'm struggling with guilt",
+        "Guilt"
+      ],
+      "responses": [
+        "It's understandable to feel guilty sometimes, but it's important to remember that dwelling on these feelings can be harmful.",
+        "It can be difficult to let go of feelings of guilt, but try to remember that everyone makes mistakes. Consider talking to someone about your guilt.",
+        "Guilt can be a heavy burden to carry, but it's important to recognize that you can learn and grow from past mistakes. Consider reflecting on what you can do differently in the future.",
+        "It's important to address feelings of guilt, as they can impact your mental health. Consider seeking support from a therapist or counselor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Angry",
+      "patterns": [
+        "I feel so angry all the time",
+        "I am feeling angry",
+        "I don't know how to control my anger",
+        "I get easily irritated",
+        "Angry"
+      ],
+      "responses": [
+        "It sounds like you're really struggling with your anger. Consider speaking with a therapist or counselor about this.",
+        "Anger is a normal human emotion, but it's important to find healthy ways to express it. Have you tried any anger management techniques? Try deep breathing or physical exercise.",
+        "I can understand how difficult it must be to deal with this emotion on a regular basis. Remember, it's okay to feel angry, but it's important to avoid letting it consume you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Envious",
+      "patterns": [
+        "I'm feeling envious",
+        "I wish I had what someone else has",
+        "Envy",
+        "Envious"
+      ],
+      "responses": [
+        "Envy is a natural emotion, but it can be harmful if it becomes too intense. Try to shift your focus to gratitude and appreciation for what you do have.",
+        "It's okay to feel envious sometimes, but try not to let it consume you. Focus on your own goals and accomplishments.",
+        "Envy often arises when we compare ourselves to others. Remember that everyone has their own unique journey and experiences, and try to celebrate the successes of others without diminishing your own accomplishments."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Jealous",
+      "patterns": [
+        "I'm feeling jealous.",
+        "Why do I always feel jealous?",
+        "My friend got something that I wanted and now I feel jealous.",
+        "Jealous",
+        "Jealousy"
+      ],
+      "responses": [
+        "Jealousy can be difficult to deal with, but remember that you are not alone in feeling this way. Try to distract yourself from those feelings.",
+        "Jealousy can sometimes be a sign that we want something that someone else has. Can you identify what it is that you want? Maybe there's a way to work towards getting it for yourself."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Excited",
+      "patterns": [
+        "I feel so excited!",
+        "I am really excited about something.",
+        "I can't wait to do this, I'm so excited!",
+        "Excited"
+      ],
+      "responses": [
+        "Excitement can be such a wonderful feeling. What are you planning to do with all that energy?",
+        "I'm so happy for you that you're feeling excited!",
+        "It's always wonderful to feel excited about something. I am happy for you!",
+        "That's great to hear!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Loved",
+      "patterns": [
+        "I'm feeling loved",
+        "I feel so loved today",
+        "I have a lot of love in my life right now",
+        "I'm grateful for all the love in my life",
+        "Loved"
+      ],
+      "responses": [
+        "That's wonderful to hear! It's important to appreciate the love that we have in our lives.",
+        "Feeling loved can be such a fulfilling feeling.",
+        "It's always great to feel loved, especially during tough times."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Hateful",
+      "patterns": [
+        "I'm feeling so hateful right now.",
+        "I can't help but feel so hateful towards ",
+        "Everything just makes me feel so hateful.",
+        "Hateful"
+      ],
+      "responses": [
+        "It's understandable to feel hateful sometimes, but it's important to recognize those emotions and try to find ways to cope with them. Talk to someone about how you are feeling.",
+        "I'm sorry you're feeling this way. Hateful feelings can be overwhelming and difficult to manage. It may be helpful to try some relaxation techniques or engage in activities that bring you joy to help balance out those negative emotions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Hopeful",
+      "patterns": [
+        "I am feeling hopeful today",
+        "Today is a good day, I feel very hopeful",
+        "I woke up feeling hopeful this morning",
+        "I am optimistic",
+        "Hopeful"
+      ],
+      "responses": [
+        "That's wonderful to hear!",
+        "It's great to start the day off feeling positive and hopeful.",
+        "I'm glad to hear that! Focusing on hope and positivity can be very helpful for our mental wellbeing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Confused",
+      "patterns": [
+        "I'm feeling confused",
+        "I'm not sure what to do",
+        "I'm feeling lost",
+        "Everything seems unclear",
+        "Confused"
+      ],
+      "responses": [
+        "It's okay to feel confused sometimes. Remember that it's normal to not have all the answers right away.",
+        "Sometimes taking a step back and taking a break from the situation can help clear things up.",
+        "Confusion can be a difficult feeling to deal with. Try writing down your thoughts or talking to someone about how you're feeling."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Doubtful",
+      "patterns": [
+        "I'm feeling doubtful about my decisions.",
+        "I have a lot of doubts about my abilities.",
+        "I'm not sure if I'm making the right choice.",
+        "Doubtful"
+      ],
+      "responses": [
+        "Doubt can be a challenging emotion to manage. One strategy that might help is to write down your doubts and explore them more objectively. This can help you see them in a different light and work through them.",
+        "Doubt can be a sign that you're facing a difficult decision or situation. It's important to take some time to reflect on your doubts and explore where they're coming from. Sometimes talking to a trusted friend or mentor can help you gain perspective.",
+        "Doubts can be overwhelming, but remember that it's okay to not have everything figured out. Take some time to reflect on your values and priorities and use them as a guide when making decisions. You might also try breaking down your decision into smaller steps and focusing on one at a time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Distrust",
+      "patterns": [
+        "I feel like I can't trust anyone",
+        "I don't know who to trust anymore",
+        "I have a hard time trusting people",
+        "Distrust"
+      ],
+      "responses": [
+        "It's understandable to feel this way, especially if you've been let down or betrayed in the past. Try talking to anyone about these feelings. Remember not everyone is as bad as you might think.",
+        "It's important to have people in our lives that we can trust. Consult professional for guidance.",
+        "It is common to feel this way, but you should allow people the chance to change. Ask them about their situation and try to understand their perspective."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Insecured",
+      "patterns": [
+        "I'm feeling insecure",
+        "I'm so insecure lately",
+        "I can't help feeling insecure all the time",
+        "My insecurity is really getting to me",
+        "Insecured"
+      ],
+      "responses": [
+        "Feeling insecure can be tough. Just remember that you are valuable and important, no matter what your brain may be telling you.",
+        "I'm sorry to hear that you're feeling insecure. It's completely normal to feel this way sometimes.",
+        "I understand how difficult it can be to deal with insecurity. Try techniques like journaling or talking to someone you trust to manage these feelings."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Overwhelmed",
+      "patterns": [
+        "I'm feeling overwhelmed",
+        "Everything is just too much right now",
+        "I don't know how to handle all of this",
+        "Overwhelmed"
+      ],
+      "responses": [
+        "Remember to take breaks and prioritize self-care when you're feeling overwhelmed.",
+        "It can be helpful to break down your responsibilities into smaller, manageable tasks.",
+        "Feeling overwhelmed is a common experience, and it's okay to feel that way. However, it is important to manage your stress too."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Better",
+      "patterns": [
+        "I'm feeling better",
+        "My mood is improving",
+        "I'm feeling more positive",
+        "Feeling Better"
+      ],
+      "responses": [
+        "That's great to hear!",
+        "It's great to see your mood improving. Keep up the good work!",
+        "I'm happy to hear that you're feeling better. Take care of yourself and keep up the good work!",
+        "That's wonderful news!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Feeling Worse",
+      "patterns": [
+        "I'm feeling worse",
+        "My mood has gotten worse",
+        "I'm struggling more than before",
+        "Feeling Worse",
+        "Feeling more negative"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling worse.",
+        "It's okay to feel worse sometimes, but it's important to take care of yourself.",
+        "I hear you, and I'm here to support you. Let's work together to find ways to improve your mood and get back on track.",
+        "Feeling worse can be a sign that you need to reach out for help. Consider talking to a professional or trusted family or friend."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Professional Types",
+      "patterns": [
+        "What are the types of mental health professionals?",
+        "Types of professionals",
+        "What is the difference between mental health professionals?"
+      ],
+      "responses": [
+        "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Personal Growth Tips",
+      "patterns": [
+        "Can you give me some personal growth tips?",
+        "What are some ways I can grow personally?",
+        "How can I work on my personal growth?",
+        "Personal Growth tips",
+        "Tips for personal growth"
+      ],
+      "responses": [
+        "Personal growth is all about constantly working on yourself. Some tips to help with this include reading personal development books, taking courses or classes, networking with like-minded individuals, and finding a mentor.",
+        "Personal growth is an ongoing process, but some tips to get started include setting intentions, practicing self-care, exploring your interests and passions, and pushing yourself outside of your comfort zone.",
+        "Some personal growth tips include setting goals, practicing self-reflection, learning new skills, trying new experiences, and surrounding yourself with positive people."
+      ],
+      "context_set": "personal growth tips"
+    },
+    {
+      "tag": "Personal Growth Benefits",
+      "patterns": [
+        "What are the benefits of personal growth?",
+        "How does personal growth benefit us?",
+        "Can you tell me more about the advantages of personal growth?",
+        "Why is personal growth important for our well-being?",
+        "Benefits of personal growth",
+        "Advantages of personal growth"
+      ],
+      "responses": [
+        "Engaging in personal growth can help us develop a greater sense of purpose and meaning in life.",
+        "Pursuing personal growth can also enhance our relationships and communication skills, as well as our ability to handle challenging situations.",
+        "Some other benefits of personal growth include increased resilience, better stress management, and greater creativity and innovation.",
+        "Personal growth can lead to increased self-awareness, improved confidence, and better decision-making skills."
+      ],
+      "context_set": "personal growth benefits"
+    },
+    {
+      "tag": "Personal Growth Habits",
+      "patterns": [
+        "What are some personal growth habits?",
+        "Can you suggest some habits for personal growth?",
+        "What are the best practices for personal growth?",
+        "What are some habits for personal growth",
+        "Habits of personal growth",
+        "Personal growth habits"
+      ],
+      "responses": [
+        "Some personal growth habits include reading, journaling, exercising, meditating, setting goals, and learning new skills.",
+        "Personal growth habits can be developed by starting small, being consistent, and finding what works for you.",
+        "The best practices for personal growth include having a growth mindset, seeking feedback, reflecting on your progress, and being open to change."
+      ],
+      "context_set": "personal growth habits"
+    },
+    {
+      "tag": "Personal Growth Obstacles",
+      "patterns": [
+        "How can I overcome obstacles in my personal growth?",
+        "What are some common obstacles people face in their personal growth?",
+        "I'm facing a challenge in my personal growth, how can I move past it?",
+        "What are some obstacles that I will face in my personal growth",
+        "Personal Growth Obstacles"
+      ],
+      "responses": [
+        "One of the biggest obstacles to personal growth is fear of change. Try to identify what scares you about moving forward and challenge those beliefs.",
+        "Another common obstacle is lack of motivation or direction. Set specific goals for yourself and break them down into manageable steps to help you stay on track.",
+        "Surround yourself with supportive people who will encourage and challenge you to grow. Seek out mentors or a support group to help you along the way.",
+        "Remember that personal growth is a journey, not a destination. It's okay to stumble or make mistakes, as long as you keep moving forward and learning from them."
+      ],
+      "context_set": "personal growth obstacles"
+    },
+    {
+      "tag": "Personal Growth Strategies",
+      "patterns": [
+        "What are some strategies for personal growth?",
+        "How can I develop a personal growth plan?",
+        "What are some tips for achieving personal growth?",
+        "What strategies can I use to overcome obstacles in personal growth?",
+        "Personal growth strategies",
+        "Tell me some strategies that can help me with personal growth."
+      ],
+      "responses": [
+        "Developing a personal growth plan involves identifying your strengths and weaknesses, setting SMART goals, and creating a plan of action.",
+        "To achieve personal growth, it's important to stay motivated, stay focused, and continue learning and growing.",
+        "Overcoming obstacles in personal growth requires a positive attitude, perseverance, and a willingness to try new things. It can also be helpful to seek support from others and to learn from your mistakes.",
+        "Some strategies for personal growth include setting goals, self-reflection, learning new skills, seeking feedback, and taking on new challenges."
+      ],
+      "context_set": "personal growth strategies"
+    },
+    {
+      "tag": "Phobia Definition",
+      "patterns": [
+        "What is a phobia?",
+        "Can you explain what a phobia is?",
+        "Define phobia",
+        "The difinition of phobia",
+        "What does the term phobia mean?"
+      ],
+      "responses": [
+        "A phobia is an intense, irrational fear of something that, in reality, poses little or no actual danger.",
+        "Phobia is a type of anxiety disorder that can be debilitating for those who suffer from it. It is characterized by an intense and persistent fear of a specific object, situation, or activity.",
+        "A phobia is an excessive or irrational fear of a specific object, situation, or activity that leads to avoidance behaviors. It can be caused by a variety of factors, including genetics, environment, and personal experience.",
+        "Phobias are a type of anxiety disorder that can be triggered by a wide range of stimuli, including animals, natural phenomena, and social situations. They can cause a person to feel extremely anxious or distressed and can interfere with their daily life."
+      ],
+      "context_set": "phobia definition"
+    },
+    {
+      "tag": "Phobia Tips",
+      "patterns": [
+        "Can you give me some tips for dealing with phobias?",
+        "I have a phobia and I'm not sure how to manage it. Any advice?",
+        "Any advice on how to cope with phobia?",
+        "What are some techniques to overcome a phobia?",
+        "How to overcome my phobia?",
+        "Phobia Tips"
+      ],
+      "responses": [
+        "Breathing exercises and relaxation techniques, such as meditation or yoga, can also help you manage anxiety related to phobias.",
+        "Cognitive-behavioral therapy (CBT) is often used to treat phobias, and involves challenging negative thoughts and beliefs and replacing them with positive ones.",
+        "It may be helpful to join a support group or seek out others who are dealing with similar phobias for advice and encouragement.",
+        "Remember that phobias can be treated and managed with the help of a mental health professional, so don't be afraid to seek out help if you need it.",
+        "One technique for managing phobias is exposure therapy, where you gradually confront your fear in a controlled environment with the help of a therapist."
+      ],
+      "context_set": "phobia tips"
+    },
+    {
+      "tag": "Phobia Causes",
+      "patterns": [
+        "What are the causes of phobias?",
+        "Why do people develop phobias?",
+        "Can you tell me about the factors that contribute to phobia development?",
+        "I don't understand why I have this phobia. What causes it?",
+        "What causes phobia?",
+        "Phobia causes"
+      ],
+      "responses": [
+        "Phobias can be caused by a variety of factors, including a family history of anxiety disorders, exposure to a traumatic event, or learning to fear a specific object or situation. It's important to identify the specific cause of your phobia in order to develop an effective treatment plan.",
+        "Phobias can be caused by a combination of factors, including genetics, past experiences, and current life circumstances. It's important to work with a mental health professional to identify the specific causes of your phobia and develop a personalized treatment plan.",
+        "There is no single cause of phobias, but some factors that may contribute to their development include genetic predisposition, past traumatic experiences, learned behaviors, and brain chemistry."
+      ],
+      "context_set": "phobia causes"
+    },
+    {
+      "tag": "Phobia Effects",
+      "patterns": [
+        "What are the effects of having a phobia?",
+        "Can phobias have long-term effects on mental health?",
+        "What are the effects of phobia?",
+        "Effect of phobia",
+        "Phobia effect"
+      ],
+      "responses": [
+        "If left untreated, phobias can lead to more serious mental health issues such as depression and social isolation.",
+        "The effects of a phobia can vary from person to person and depend on the severity of the phobia, but it is important to seek professional help if you are experiencing any negative impacts on your daily life.",
+        "Phobias can have a range of effects on an individual, including anxiety, panic attacks, and avoidance behaviors that can interfere with daily life."
+      ],
+      "context_set": "phobia effects"
+    },
+    {
+      "tag": "Phobia Examples",
+      "patterns": [
+        "Example of phobia",
+        "Can you give me a common example of phobia?",
+        "What is an example of phobia?",
+        "I've heard of phobias, but what are some examples?",
+        "Phobia Examples"
+      ],
+      "responses": [
+        "Acrophobia: fear of heights.",
+        "Aerophobia: fear of flying.",
+        "Arachnophobia: fear of spiders.",
+        "Claustrophobia: fear of closed spaces.",
+        "Hemophobia: fear of blood.",
+        "Zoophobia: fear of animals.",
+        "There are some many phobias for specific things (TOO MANY). I suggest you to search up online. Sorry for the inconvenience."
+      ],
+      "context_set": "phobia examples"
+    },
+    {
+      "tag": "Sadness Feeling",
+      "patterns": [
+        "I feel down",
+        "I feel sad",
+        "I am sad",
+        "I feel down today",
+        "I sad",
+        "sad"
+      ],
+      "responses": [
+        "I am sorry to hear that you're feeling sad. It is okay to feel sad sometimes, and it is important to take care of yourself when you do.",
+        "I'm sorry to hear that. It is natural to experience sadness at various time in our lives. You can try to distract yourself by doing something you enjoy. You can also try to talk to someone you trust.",
+        "I'm sorry to hear that. It is natural to experience sadness at various time in our lives.",
+        "I'm here to support you, you can ask me more about it.",
+        "I understand that it's hard to feel sad. That's why I am here to help.",
+        "I am sorry to hear that. Please tell me more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sadness Tips",
+      "patterns": [
+        "How can I cope with sadness",
+        "What are some tips for dealing with sadness",
+        "Can you suggest ways to manage feelings of sadness?",
+        "I feel sad and don't know what to do",
+        "Sadness Tips",
+        "I want to learn more about tips about sadness",
+        "Tip for sadness"
+      ],
+      "responses": [
+        "Maintain connections with others. try to socialize, try to talk to someone you trust like a friend, family member or seek professional. It help you feel less lonely and more supported",
+        "Practise mindfulness. Mindfulness involves paying attention to the present moment without judgement. Enjoy each step in the activity that you are currently participating in. There are some mindfulness exercises like breathing exercise available here.",
+        "Prioritise self-care. Engage in activity that you enjoy, eat well, exercise, make time to rest. Take time for yourself and acknowledge your successes. You are doing the best you can.",
+        "Seek Professional help if needed. Do not let your sadness become overwhelming to the point that it is unmanageable.",
+        "Remember that it is important to acknowledge and accept your emotions. Do not try to ignore them as this will make it worse."
+      ],
+      "context_set": "sadness tips"
+    },
+    {
+      "tag": "Sadness Causes",
+      "patterns": [
+        "What is the cause of sadness",
+        "Why do people feel sad",
+        "Why sadness",
+        "Why does one feel sad",
+        "The cause of sadness",
+        "Sadness cause",
+        "Cause of sadness"
+      ],
+      "responses": [
+        "Ongoing stress like work pressure, financial difficulties, or relationship problems can lead to feeling of sadness.",
+        "Health problems like physical pain or chronic disease can cause sadness.",
+        "Social isolation or loneliness can cause the feelings of sadness.",
+        "There are many causes of sadness and it highly depends on personal experience, like stress, health problem, loneliness or even nutrition factor",
+        "The causes of sadness may vary depending on that person. Here is one general cause of sadness. The loss of a loved one, a pet or something important to you can cause feelings of sadness and grief"
+      ],
+      "context_set": "sadness cause"
+    },
+    {
+      "tag": "Sadness Effects",
+      "patterns": [
+        "The effects of sadness",
+        "What is the effect of sadness",
+        "What will happen if sadness is not treated",
+        "Effect of sadness",
+        "What will happen if sad",
+        "Effect caused by sadness",
+        "Sadness effect"
+      ],
+      "responses": [
+        "Another effect is that sadness can disrupt sleep patterns, causing difficulties falling asleep or staying asleep.",
+        "Some people may experience a loss of appetite or overeating when they are sad.",
+        "Sadness also causes health problems like headaches, muscle aches and more.",
+        "Sadness can lead to suicidal thoughts if it is not treated well.",
+        "The effects of sadness can vary depending on that person and the situation. One of the effects is sadness can cause the change of mood in a negative way, which can make it difficult to feel motivated."
+      ],
+      "context_set": "sadness effect"
+    },
+    {
+      "tag": "Self-care Definition",
+      "patterns": [
+        "What is self-care",
+        "Can you define self-care?",
+        "I am not sure what self-care means.",
+        "The definition of self-care",
+        "Self-care definition"
+      ],
+      "responses": [
+        "Self-care refers to the practice of taking care of your physical, emotional, and mental health. It involves engaging in activities that promote your well-being, such as exercising, eating well, getting enough sleep, practicing mindfulness, and setting boundaries to protect your time and energy."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Self-care Methods",
+      "patterns": [
+        "What are some self-care methods?",
+        "Can you suggest some self-care techniques?",
+        "I need some self-care ideas.",
+        "How can I practise self-care.",
+        "Let me know some self-care tips",
+        "Tip for self-care"
+      ],
+      "responses": [
+        "Practice relaxation techniques like deep breathing, meditation, or yoga.",
+        "Engage in regular physical exercise, such as going for a walk, run or doing a workout.",
+        "Get enough sleep and establish a regular sleep schedule.",
+        "Eat a balanced, healthy diet and limit your intake of caffeine and alcohol.",
+        "Connect with others and maintain healthy relationships with friends and family.",
+        "Seek support from a therapist or counselor if you're struggling with mental health concerns.",
+        "Write in a journal to process emotions.",
+        "Practice mindfulness and be present in the moment.",
+        "Take breaks and give yourself permission to rest.",
+        "Try new hobbies or activities to challenge yourself and broaden your horizons.",
+        "Self-care is a crucial aspect of maintaining good mental health. Here are some techniques you can try: meditation, exercise, spending time in nature, journaling, practicing gratitude, setting boundaries, and getting enough sleep."
+      ],
+      "context_set": "self-care methods"
+    },
+    {
+      "tag": "Self-care Benefits",
+      "patterns": [
+        "What are the benefits of self-care?",
+        "How can self-care help me?",
+        "Why is self-care important?",
+        "Can you tell me more about the advantages of self-care?",
+        "Benefits of self-care",
+        "Advantages of self-care"
+      ],
+      "responses": [
+        "Practicing self-care regularly can help you feel more relaxed and energized, improve your mood and confidence, and even increase your productivity and creativity.",
+        "There are many benefits to practicing self-care, including better sleep, improved relationships, and increased self-awareness and self-compassion.",
+        "Taking time for self-care can be a powerful tool in maintaining good mental health, increasing emotional resilience, and promoting overall well-being.",
+        "Self-care practices such as mindfulness, meditation, and journaling can help reduce symptoms of anxiety and depression, and promote a more positive outlook on life.",
+        "Engaging in regular exercise, getting enough sleep, and eating a healthy diet are all important components of self-care that can improve physical health, boost immunity, and prevent chronic disease.",
+        "Some benefits of self-care include reduced stress and anxiety, improved physical health, increased resilience, and better mental health."
+      ],
+      "context_set": "self-care benefits"
+    },
+    {
+      "tag": "Meditation Definition",
+      "patterns": [
+        "What is meditation?",
+        "Define meditation",
+        "Tell me more about meditation.",
+        "Can you explain what meditation means?",
+        "Meditation Definition"
+      ],
+      "responses": [
+        "Meditation is a practice that involves training the mind to focus and achieve a state of relaxation and inner calm. It typically involves sitting in a quiet place, focusing on a particular object or thought, and practicing mindfulness or deep breathing exercises. Meditation has been found to have many physical and mental health benefits, including reducing stress, improving concentration, and enhancing overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Meditation Techniques",
+      "patterns": [
+        "What are some meditation techniques?",
+        "Can you suggest some meditation techniques for me to try?",
+        "I'm interested in learning more about meditation techniques.",
+        "Meditation Techniques"
+      ],
+      "responses": [
+        "Some popular meditation techniques include focused breathing, visualization, mantra repetition, and movement meditation. Experimenting with different techniques can help you discover what helps you feel most relaxed and centered.",
+        "When it comes to meditation techniques, there's no one-size-fits-all approach. Some people prefer more structured techniques, while others prefer more open-ended approaches. You may want to try a few different techniques to see which ones resonate with you the most.",
+        "There are many different meditation techniques you can try, including mindfulness meditation, loving-kindness meditation, body scan meditation, and transcendental meditation, among others. Each technique has its own unique approach and benefits, so it's worth exploring different options to find what works best for you."
+      ],
+      "context_set": "meditation techniques"
+    },
+    {
+      "tag": "Meditation Benefits",
+      "patterns": [
+        "What are the benefits of meditation?",
+        "How can meditation help me?",
+        "Can you tell me about the advantages of meditation?",
+        "What positive effects does meditation have on the body and mind?",
+        "Why is meditation good for you?",
+        "Meditation benefits",
+        "Meditation advantages"
+      ],
+      "responses": [
+        "Some other benefits of meditation include reducing symptoms of depression, lowering blood pressure, improving sleep quality, and boosting the immune system.",
+        "Meditation can also help with pain management, reducing feelings of loneliness and social isolation, and increasing feelings of compassion and empathy towards others.",
+        "Regular meditation practice can help you develop a sense of calm and inner peace, leading to improved overall well-being and a better quality of life.",
+        "Meditation has numerous benefits, including reducing stress and anxiety, improving concentration and focus, promoting emotional well-being, and enhancing self-awareness."
+      ],
+      "context_set": "meditation benefits"
+    },
+    {
+      "tag": "Breathing Definition",
+      "patterns": [
+        "What is breathing?",
+        "Define breathing",
+        "Tell me more about breathing.",
+        "Can you explain what breathing means?",
+        "Breathing Definition"
+      ],
+      "responses": [
+        "Breathing is the process of inhaling air into the lungs and exhaling it out. It is mindfulness technique to help you focus!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Breathing Techniques",
+      "patterns": [
+        "What are some breathing techniques for mindfulness?",
+        "How can I use breathing to practice mindfulness?",
+        "Can you recommend any mindfulness breathing exercises?",
+        "Breathing techniques",
+        "Breathing exercises"
+      ],
+      "responses": [
+        "Another mindfulness breathing exercise is the 4-7-8 method, where you inhale for 4 seconds, hold your breath for 7 seconds, and exhale for 8 seconds. This can help slow down your heart rate and promote relaxation.",
+        "Alternate nostril breathing is also a popular mindfulness technique, where you use your fingers to alternate which nostril you breathe through, and focus on the sensation of the breath in each nostril.",
+        "I do provide a simple breathing exercise. You can try it out by pressing the button down there under mindfulness tab.",
+        "Mindful breathing involves paying attention to your breath and being present in the moment. One technique is to take deep, slow breaths and focus on the sensations of the breath as it moves in and out of your body."
+      ],
+      "context_set": "breathing techniques"
+    },
+    {
+      "tag": "Mindfulness Definition",
+      "patterns": [
+        "What is mindfulness?",
+        "Can you explain mindfulness?",
+        "Define mindfulness.",
+        "What does mindfulness mean?"
+      ],
+      "responses": [
+        "Mindfulness is the practice of being present and fully engaged in the current moment, while observing and accepting one's thoughts and emotions without judgment. It involves focusing on one's breath or body sensations and bringing one's attention back to the present moment whenever the mind wanders. Mindfulness has been shown to have numerous benefits for mental health, including reducing stress, anxiety, and depression, improving focus and concentration, and promoting overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Mindfulness Techniques",
+      "patterns": [
+        "What are some mindfulness techniques?",
+        "Can you recommend any mindfulness techniques?",
+        "Define mindfulness.",
+        "I'm interested in learning about mindfulness techniques, could you help?",
+        "Mindfulness Tips",
+        "Mindfulness techniques"
+      ],
+      "responses": [
+        "Here are a few mindfulness techniques you can try: body scan meditation, breath awareness meditation, loving-kindness meditation, and walking meditation.",
+        "A few popular mindfulness techniques include: progressive muscle relaxation, visualization, and sensory awareness exercises.",
+        "Here are some mindfulness techniques you can try: mindful breathing, body scan, mindful eating, and gratitude meditation. Remember, there are many techniques out there, so feel free to experiment and find what works best for you!",
+        "I do have some built-in mindfulness exercises, you can try it out by click the button 'Mindfulness' down below."
+      ],
+      "context_set": "mindfulness techniques"
+    },
+    {
+      "tag": "Mindfulness Benefits",
+      "patterns": [
+        "What are the benefits of mindfulness?",
+        "How can mindfulness help me?",
+        "Why is mindfulness beneficial?",
+        "Benefits of mindfulness",
+        "Advantages of mindfulness",
+        "Mindfulness Benefits",
+        "Mindfulness Advantages"
+      ],
+      "responses": [
+        "Mindfulness has been shown to increase attention, focus, and cognitive flexibility, as well as promote emotional regulation and resilience.",
+        "Research has found that practicing mindfulness can lead to physical health benefits, such as lowering blood pressure and reducing chronic pain.",
+        "By helping us become more aware of our thoughts and emotions, mindfulness can improve our relationships, communication skills, and overall quality of life.",
+        "Practicing mindfulness can help reduce stress, anxiety, and depression, improve sleep quality, and enhance overall well-being."
+      ],
+      "context_set": "mindfulness benefits"
+    },
+    {
+      "tag": "Sleepless Feeling",
+      "patterns": [
+        "I have insomnia",
+        "I am suffering from insomnia",
+        "I can't sleep.",
+        "I haven't slept for the last days.",
+        "I can't seem to go to sleep.",
+        "I haven't had proper sleep for the past few days.",
+        "I am unable to sleep",
+        "I got disturbed while sleeping",
+        "I felt sleepless",
+        "Negative thoughts keep me awake at night",
+        "Wake up in the middle of the night"
+      ],
+      "responses": [
+        "Sleeplessness can be really frustrating. You can try creating a calming bedtime routine or setting a regular sleep schedule.",
+        "I'm sorry to hear that you're having trouble sleeping. You can try any relaxation techniques or talk to your doctor about this."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sleepless Tips",
+      "patterns": [
+        "Can you give me some tips for getting a better night's sleep?",
+        "I'm having trouble sleeping. Do you have any advice?",
+        "What are some things I can do to help me fall asleep faster?",
+        "Advice for sleeping",
+        "Tip for sleeping",
+        "Sleep Tips",
+        "Advice for insomnia"
+      ],
+      "responses": [
+        "Try get around 7-8 hours of sleep. It will help you feel better.",
+        "Medicate or Exercise for 30 minutes before going to bed. It will help you sleep better.",
+        "Try to avoid caffeine and alcohol before going to bed. It will help you sleep better.",
+        "Avoid afternoon naps. It will help you sleep better.",
+        "Plan for your sleeping schedule. It will help you sleep better.",
+        "Avoid large meals before bedtime.",
+        "It might be helpful to talk to a healthcare professional or sleep specialist for additional advice.",
+        "Try to reduce your screen time from electronic devices before going to bed. It will help you sleep better."
+      ],
+      "context_set": "sleepless tips"
+    },
+    {
+      "tag": "Sleepless Causes",
+      "patterns": [
+        "Why am I having trouble sleeping?",
+        "What could be causing my insomnia?",
+        "I can't seem to fall asleep, what might be the problem?",
+        "Why can't I fall asleep?",
+        "Sleepless causes",
+        "Insomnia causes"
+      ],
+      "responses": [
+        "If you're unsure of what might be causing your sleeplessness, it's always a good idea to speak with a healthcare professional for guidance.",
+        "There are many possible causes of sleeplessness, including physical or mental health conditions, stress, lifestyle habits, or medication side effects.",
+        "Some common causes of sleeplessness include an irregular sleep schedule, a noisy or uncomfortable sleeping environment, or the consumption of stimulants like caffeine or nicotine. It might be helpful to assess your sleep habits and environment to see if there are any changes you can make to improve your sleep.",
+        "Factors like stress, anxiety, depression, medications, caffeine, alcohol, and even certain medical conditions can causes insomnia or sleeplessness."
+      ],
+      "context_set": "sleepless causes"
+    },
+    {
+      "tag": "Sleepless Effects",
+      "patterns": [
+        "What are the effects of not sleeping well?",
+        "How does lack of sleep affect the body?",
+        "What are the consequences of insomnia?",
+        "What are the effects of insomnia?",
+        "Sleepless effects",
+        "Insomnia effects"
+      ],
+      "responses": [
+        "Insomnia can lead to daytime sleepiness, mood changes, decreased productivity, and can even increase the risk of developing certain health conditions, such as obesity, diabetes, and cardiovascular disease.",
+        "Sleep deprivation can also affect your mental health, causing symptoms of anxiety and depression, as well as making it harder to manage stress and cope with daily challenges. It's important to address sleep issues and seek professional help if necessary to avoid these negative effects.",
+        "Lack of sleep can have a range of effects on the body and mind, including fatigue, irritability, difficulty concentrating, memory problems, weakened immune system, increased risk of accidents, and even depression and anxiety."
+      ],
+      "context_set": "sleepless effects"
+    },
+    {
+      "tag": "Sleep Importance",
+      "patterns": [
+        "Why is sleep important?",
+        "The importance of sleeping.",
+        "What are the benefits of getting enough sleep?",
+        "Can you explain why sleep is so crucial for overall health and well-being?",
+        "Why is sleep so crucial for us?",
+        "Sleep Importance",
+        "Sleep Benefits"
+      ],
+      "responses": [
+        "There are many benefits to getting a good night's sleep. It can improve our mood, increase our energy levels, and improve our ability to concentrate and focus. Lack of sleep, on the other hand, can lead to feelings of irritability and anxiety, decreased productivity, and impaired cognitive function. It's important to prioritize sleep in order to maintain good health and well-being.",
+        "Sleep plays a critical role in maintaining good health and well-being. Getting enough sleep is vital for physical and mental health, as it helps the body repair and rejuvenate itself. Some of the benefits of adequate sleep include improved memory and cognitive function, better mood regulation, reduced risk of chronic diseases such as diabetes and heart disease, and a stronger immune system.",
+        "Sleep is essential for the overall health and well-being of our bodies and minds. During sleep, the body repairs and restores itself, which helps to boost our immune system, promote healthy brain function, and regulate our mood. It's important to get enough sleep each night to ensure that our bodies and minds can function at their best."
+      ],
+      "context_set": "sleep importance"
+    },
+    {
+      "tag": "Stigmatization Definition",
+      "patterns": [
+        "What is stigmatization in mental health?",
+        "Can you define stigmatization in mental health?",
+        "I don't understand what stigmatization in mental health is",
+        "Could you explain definition of stigmatization in relation to mental health to me?",
+        "Definition of stigmatization in mental health",
+        "Stigmatization in mental health",
+        "I'm not sure I understand what stigmatization means. Can you clarify?"
+      ],
+      "responses": [
+        "Stigmatization in mental health refers to the negative attitudes, beliefs, and behaviors directed towards individuals with mental health conditions. It can lead to discrimination, exclusion, and social isolation, and can prevent individuals from seeking help and support.",
+        "Stigmatization of mental health is the process of labeling and stereotyping individuals with mental health conditions, often leading to discrimination and marginalization. This can result in negative effects on mental health and well-being.",
+        "Stigmatization of mental health is a complex issue that involves stereotypes, prejudices, and negative attitudes towards individuals with mental health conditions. It can have a significant impact on the lives of those affected and their ability to access proper care and support."
+      ],
+      "context_set": "stigmatization definition"
+    },
+    {
+      "tag": "Stigmatization Causes",
+      "patterns": [
+        "What causes stigmatization in mental health?",
+        "Why is mental illness stigmatized?",
+        "What are the reasons behind mental health stigma?",
+        "The causes of stigmatization in mental health.",
+        "What is the cause of stigmatization in mental health",
+        "Stigtimazation causes",
+        "Why stigtimzation?",
+        "Causes of stigmatization",
+        "Why stigtimzation?"
+      ],
+      "responses": [
+        "Fear and misinformation about mental illness can also contribute to stigmatization. People may be afraid to speak out or seek help due to the stigma surrounding mental health.",
+        "Discrimination, prejudice, and social exclusion can also contribute to the stigmatization of mental health. This can lead to feelings of shame, guilt, and isolation for those affected by mental illness.",
+        "Stigma can also be perpetuated by cultural and societal norms that view mental illness as a weakness or personal failing. Breaking down these barriers and promoting open and honest discussions about mental health can help to reduce stigma and improve access to treatment and support.",
+        "Stigmatization of mental health can be caused by a lack of understanding and knowledge about mental illness. It can also be perpetuated by negative media portrayals and stereotypes."
+      ],
+      "context_set": "stigmatization causes"
+    },
+    {
+      "tag": "Stigmatization Effects",
+      "patterns": [
+        "The effects of stigmazation on mental health",
+        "What are the effects of stigmazation on mental health",
+        "What will happen if stigmazation on mental health is not solves",
+        "Effect of stigmazation on mental health",
+        "Effect caused by stigmazation on mental health",
+        "How does stigmatization impact people with mental illness",
+        "Stigmazation on mental health effect"
+      ],
+      "responses": [
+        "The fear of being stigmatized can also prevent people from seeking the support they need, which can exacerbate mental health symptoms and lead to a worsening of the condition.",
+        "Stigmatization can also contribute to discrimination and social exclusion, which can further impact the mental health of those affected.",
+        "Stigmatization can have a profound impact on the mental health of individuals with mental illness. It can lead to feelings of shame, isolation, and low self-esteem, as well as a reluctance to seek treatment or disclose one's condition to others."
+      ],
+      "context_set": "stigmatization effects"
+    },
+    {
+      "tag": "Stigmatization Reduction",
+      "patterns": [
+        "How can we reduce the stigma around mental health",
+        "What are some ways to combat the stigma of mental illness?",
+        "How to reduce stigmatization in mental health?",
+        "Reduction on stigma",
+        "Stigmatization Reduction ways"
+      ],
+      "responses": [
+        "There are many ways to reduce the stigma surrounding mental health. One way is to educate people about mental illness and challenge stereotypes and myths.",
+        "Speak openly and honestly about mental health. Encouraging open conversations about mental health can help reduce stigma and increase understanding.",
+        "Listen to people's experiences with mental illness and show support can help reduce negative attitudes and stereotypes.",
+        "We can also reduce stigma by promoting positive portrayals of mental illness in media and popular culture. This can help challenge harmful stereotypes and encourage empathy and understanding.",
+        "It's important to remember that reducing stigma is an ongoing process. We can all play a role in promoting positive attitudes towards mental health by being informed and speaking out against stigma when we see it."
+      ],
+      "context_set": "stigmatization reduction"
+    },
+    {
+      "tag": "Stigmatization Location",
+      "patterns": [
+        "Where does stigmatization of mental health happen?",
+        "In what places do people experience stigmatization related to mental health?",
+        "Where do people experience stigmatization related to mental health?",
+        "Places that stigmatization happen",
+        "Stigmatization location"
+      ],
+      "responses": [
+        "Stigmatization of mental health can occur in many different settings, including online platforms and social media.",
+        "The locations where stigmatization of mental health occurs can vary depending on the culture, social norms, and attitudes towards mental health in a particular society.",
+        "Stigmatization of mental health can happen in various locations such as schools, workplaces, healthcare facilities, and even within families and social circles."
+      ],
+      "context_set": "stigmatization location"
+    },
+    {
+      "tag": "Stress Defination",
+      "patterns": [
+        "What is stress?",
+        "Can you define stress?",
+        "I don't understand what stress is",
+        "Could you explain stress to me?",
+        "Defination of stress",
+        "Stress"
+      ],
+      "responses": [
+        "Stress can be defined as state of worry or mental tension caused by difficult situation like work, relationships, health, financial and more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stressed Feeling",
+      "patterns": [
+        "I am so stressed out",
+        "I am so stressed",
+        "I still feel stressed",
+        "I am feeling stressed",
+        "I am feeling so stressed",
+        "I feel overwhelmed by my stress",
+        "stressed"
+      ],
+      "responses": [
+        "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated",
+        "Give yourself a break. Go easy on yourself.",
+        "I am sorry to hear that. Can you tell me more?",
+        "I'm sorry to hear that you're feeling stressed. It is important to recognize and acknowledge your feelings."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Tips",
+      "patterns": [
+        "How do I manage my stress",
+        "What can I do to make my stress go away",
+        "How do I stop feeling so stressed",
+        "Is there any way i can stop feeling stressed",
+        "How to treat stress",
+        "Does stressed have a cure?",
+        "Tip for stress",
+        "Stress Tips",
+        "I don't know how to manage my stress",
+        "I'm not sure what to do to cope with my stress",
+        "How to cope with stress",
+        "How to manage stress",
+        "Manage stress",
+        "Tip for managing stress"
+      ],
+      "responses": [
+        "It can be overwhelming to try to cope with stress on your own. Have you considered seeking support from a mental health professional, who can provide you with coping strategies and support? It can also be helpful to set aside time for activities you enjoy, find healthy ways to relax, and reach out to friends and loved ones for support.",
+        "Give yourself some time to rest and recharge throughout the day, even if it's just for a few minutes at a time.",
+        "Try practice relaxation techniques like deep breathing, meditation, yoga and others.",
+        "Self-care is very important as well. Take care of your physical and emotional needs.",
+        "There are many ways to manage stress, including exercising regularly, finding healthy ways to relax, setting aside time for activities you enjoy, and seeking support from friends and loved ones. It can also be helpful to talk to a mental health professional, who can provide you with coping strategies and support."
+      ],
+      "context_set": "stress tips"
+    },
+    {
+      "tag": "Stress Causes",
+      "patterns": [
+        "What is the cause of stress",
+        "Why do people feel stressed",
+        "Why stressed",
+        "Why does one feel stressed",
+        "The cause of stressful life",
+        "Stress cause",
+        "I am stressed and why is that?",
+        "Why do i feel so stressful",
+        "Cause of stress"
+      ],
+      "responses": [
+        "Problems with your family, friends, or partner can be a major source of stress.",
+        "Money worries, debt and financial insecurity can be a significant cause of stress as well.",
+        "Health issues like chronic illness, caring for a sick family member, or sudden health crisii all can be very stressful.",
+        "Traumatic event can also affect mental health and stressed you out.",
+        "Big changes in life, like divorce, starting new job can be stressful too.",
+        "Aging can also be a bit stressful as well, because it introduces more responsible as a human.",
+        "Environmental factors like polluted and unpleasant environment can contribute to stress.",
+        "School is also one of the sources of stress.",
+        "There are many different causes of stress, and they can vary from person to person. For example, one of the common causes of stress is work-related. This includes job insecurity, long hours, heavy workload, difficult bosses and more."
+      ],
+      "context_set": "stress causes"
+    },
+    {
+      "tag": "Stress Effects",
+      "patterns": [
+        "The effects of being stressed",
+        "What is the effect of stress",
+        "What will happen if stress is not treated",
+        "Effect of stress",
+        "What will happen if i am stressed out",
+        "Effect caused by stress",
+        "Stress effect",
+        "Effect of stress"
+      ],
+      "responses": [
+        "It could also lead to other mental health problems like anxiety, depression, insomnia.",
+        "Stress can affect our behavior, thinking and decision making. Also leading to increased alcohol and drug use, overeating or other unhealthy coping mechanisms.",
+        "Stress can impact relationship with family, friends, leading to conflict etc.",
+        "Stress can have both short-term and long term effects on both physical and mental health. For instance, your physical health is affected because stress can lead to physical health problems like high blood pressure, heart disease and more."
+      ],
+      "context_set": "stress effects"
+    },
+    {
+      "tag": "Stress Aging",
+      "patterns": [
+        "I'm feeling stressed about getting older",
+        "I'm worried about aging",
+        "I'm anxious about the future as I get older",
+        "I am getting older, what should I do?",
+        "Aging Stress"
+      ],
+      "responses": [
+        "Aging can be stressful because of physical health changes, responsibilities, fear of death or dying, financial concerns.",
+        "It is natural to have some concerns about aging, but it's important to remember that getting older can also bring new opportunities and experiences.",
+        "Aging can bring new challenges, but it can also be a time of growth and self-discovery.",
+        "It's understandable to have concerns about aging, but it's important to remember that there are many ways to maintain your mental and physical health as you get older.",
+        "It is important for older adults to take steps to manage stress, such as staying physically active, socially engaged, seek support from family friends, and seek help from a mental health professional if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Financial",
+      "patterns": [
+        "I'm worried about money",
+        "I'm struggling financially",
+        "I'm having trouble paying bills",
+        "I am having financial stress",
+        "Financial stress"
+      ],
+      "responses": [
+        "Financial stress can be caused by debt, unemployment, eccessive or unexpected expenses, lack of savings.",
+        "Financial stress can be a difficult thing to deal with, but there are many resources available to help. For example, the government.",
+        "Money can be a source of stress, but there are many resources available to help.",
+        "Financial stress can be overwhelming and have a range of negative effects on mental and physical health. It is not a small matter.",
+        "Ways to manage financial stress: It is important to create a budget, reduce expenses, save money regularly, and seek help from a financial advisor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Relationship",
+      "patterns": [
+        "I'm in a stressful relationship with my partner.",
+        "My partner stresses me out.",
+        "I feel stressful in this relationship with my partner.",
+        "I am stressed about my romantic relationship",
+        "Relationship stress"
+      ],
+      "responses": [
+        "Romantic relationships can be stressful for many people, especially when the relationship is experiencing difficulties or challenges. There are many causes such as communication issues, trust issues, different values or goals and more.",
+        "Remember to communicate openly and honestly with your partner, work together to resolve conflict and disagreement.",
+        "People are not perfect. People make mistakes. Stop expecting people to be perfect, so you can like them for who they are.",
+        "Improve yourself also help improve the relationship indirectly. Practise self-care, exercise regularly, get enough sleep. Be the best version of you.",
+        "Always seek professional if needed. Seek help from therapist, especially those who specialized in relationship."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Health",
+      "patterns": [
+        "I am stressed about my health issues.",
+        "My health problems are making me stressed.",
+        "I am worried about my health.",
+        "I am having problems with my health and it is stressful.",
+        "I am worried about the health of loved one",
+        "Health stress"
+      ],
+      "responses": [
+        "Health-related stress is normal as no one is invincible. It is important to take steps to maintain good physical health, such as eating a balanced diet, exercising regularly, and getting enough sleep.",
+        "The causes of health-related stress are fear of illness or disease, undergoing medical procedure like surgery, chronic health conditions.",
+        "Remember to take care of your health as well as those around you. Communicate with them and get them into a healthy lifestyle.",
+        "Stress reduction techniques like meditation, deep breathing, and yoga can be helpful in reducing stress level.",
+        "Talk to your loved one, talk to healthcare provider about your concerns, consider therapy or counseling if needed.",
+        "As a chatbot, I cannot diagnose you. However, talk and seek support from professional will definitely help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Job",
+      "patterns": [
+        "I'm feeling stressed about my job",
+        "How can I cope with job-related stress?",
+        "Dealing with stress due to work",
+        "My job is causing me stress",
+        "My job is stressful",
+        "Stress Job"
+      ],
+      "responses": [
+        "Job-related stress is a common issue for many people, and can be caused by various factors such as workload, deadlines, interpersonal conflicts, and job insecurity.",
+        "Here is some ways to cope with the stress related to your job. Set a realistic goal for yourself, practice time management, try out various activities to reduce stress.",
+        "It is important to enjoy what you do. If your current job is stressful, you can seek social support, consider prefessional counseling or therapy.",
+        "It is generally good to prevent stress in the workplace as it reduced symptoms of poor overall health, increased productivity, greater job satisfaction etc.",
+        "Communication is the key. Try communicate with your employer or colleague regarding your problems.",
+        "Talking to friends, family, or colleagues about job-related stress can provide social support.",
+        "Prioritizing self-care and taking breaks throughout the workday can help reduce job-related stress."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress School",
+      "patterns": [
+        "I'm feeling stressed about school",
+        "School is making me stress",
+        "I hate school",
+        "How can I cope with school-related stress?",
+        "Dealing with stress due to school",
+        "School is causing me stress",
+        "School stress"
+      ],
+      "responses": [
+        "Academic stress is very common and can be caused by various factors such as too much homework, grades, exams or even relationships.",
+        "There are ways to cope with academic stress such as take breaks, participate in activities that you enjoy, create a schedule to manage your time.",
+        "Seek support when needed like talk to your friends, family or even your teacher.",
+        "Remember that academic stress is common, please take care of yourself, eat healthy, maintain a healthy lifestyle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Family",
+      "patterns": [
+        "I'm feeling stressed about my family",
+        "How can I cope with family-related stress?",
+        "Dealing with stress due to family issues",
+        "My family is causing me stress",
+        "My family is stressing me out",
+        "I am stressed over my relationship with my family",
+        "Stress family"
+      ],
+      "responses": [
+        "There are various factors that cause family-related stress. For example, conflicts, communication problems, financial problems.",
+        "It is important to communicate effectively with your family, tell them what you think.",
+        "Seek professional is always an option. Try to seek any kind of support, help and appropriate solution.",
+        "Practice stress-reducing activities such as meditation, exercise, yoga and more will help too."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Environment",
+      "patterns": [
+        "I'm feeling stressed about the environment",
+        "How can I cope with environmental-related stress?",
+        "Dealing with stress due to environmental issues",
+        "The environment is causing me stress",
+        "I am stressing over the environment",
+        "The environment is stressing me out.",
+        "Stress environment"
+      ],
+      "responses": [
+        "Concerns about climate change, pollution, the environment around you can be the caused of environmental stress.",
+        "Reduce waste or carbon footprint, participate in activities that promote environmental awareness.",
+        "Try connecting with like-minded people for social support.",
+        "Improve yourself by practicing self-care like mindfulness or exercise."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Daily Life",
+      "patterns": [
+        "I am feeling stressed about my daily life.",
+        "The pressure of my daily life is getting to me and I don't know how to cope.",
+        "Stress Daily Life"
+      ],
+      "responses": [
+        "Sometimes it can be helpful to take a step back and prioritize what needs to be done first. You can't do everything at once, so it's important to focus on what's most important.",
+        "Remember to take breaks throughout the day to recharge and give yourself time to relax. It's important to take care of yourself, too."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Parenting",
+      "patterns": [
+        "Parenting is stressful.",
+        "Dealing with stress due to parenting issues",
+        "How can I cope with parenting-related stress?",
+        "Stressful because parenting",
+        "Stress parenting"
+      ],
+      "responses": [
+        "Parenting can be stressful. Here is some ways to cope with it: Set a realistic expectations, practice self-care and stress-reducing activities.",
+        "Communicate with your partner, or you can seek support from other caregivers or professional counseling/therapy.",
+        "Connect with other parents, get personal advice from those with experience.",
+        "It can be caused by factors such as time, work-life balance, discipline and more.",
+        "Remember that parenting stress may cause some degree of harm to children. So it is best to relax and recharge yourself.",
+        "Try not to bring stress home as it can affect your children as well.",
+        "Take a break, keep your life well-balanced."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stress Change",
+      "patterns": [
+        "Major change in life is causing me stress",
+        "I'm stressed about a major change in my life",
+        "How can i cope with stress related to a major change.",
+        "Dealing with stress due to a major life change",
+        "Something changed and it stresses me out.",
+        "Stress change",
+        "Stress major change"
+      ],
+      "responses": [
+        "Major life changes such as moving, starting a new job, or ending a relationship can cause significant stress. It is important to accept and acknowledge your feeling and do something about it.",
+        "Some ways to cope with stress related to major changes include take a break, pace yourself, give yourself some time to recover from it.",
+        "It is important to remain healthy lifestyle, exercise, eat healthy, sleep well.",
+        "Seek help from professional if needed. They can guide you to the right way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Suicide Definition",
+      "patterns": [
+        "What does suicide mean?",
+        "How would you define suicide?",
+        "Can you explain what suicide is?",
+        "I'm not sure I understand what suicide is, can you clarify?",
+        "Define suicide",
+        "What is suicide",
+        "Suicide"
+      ],
+      "responses": [
+        "Suicide refers to the act of intentionally taking one's own life. It is often associated with severe emotional pain and the belief that there are no other options to relieve that pain. It is a complex issue with many contributing factors, and requires proper treatment and support."
+      ],
+      "context_set": "suicide definition"
+    },
+    {
+      "tag": "Suicide Prevention Tips",
+      "patterns": [
+        "What are tips to prevent suicide?",
+        "What can I do to prevent suicide?",
+        "How can I help someone who is suicidal?",
+        "What are some suicide prevention strategies?",
+        "How can I prevent suicide?",
+        "I'm concerned about someone who may be suicidal, what can I do to help?",
+        "Can you give me some tips to help prevent suicide?",
+        "Can you help me with my suicidal thoughts?"
+      ],
+      "responses": [
+        "It's important to take any suicidal thoughts or behaviors seriously and to seek help right away. Remember, suicide is preventable and there is help available.",
+        "Some strategies for suicide prevention include building a support network, developing coping skills, seeking treatment for underlying mental health conditions, and creating a safety plan.",
+        "Suicide prevention involves raising awareness, reducing stigma, and promoting mental health and well-being. There are many organizations and resources dedicated to suicide prevention, including crisis hotlines, support groups, and therapy.",
+        "If you're concerned about someone who may be suicidal, it's important to take their concerns seriously and seek help right away. You can encourage them to seek professional help or call a crisis helpline together. It's also important to create a safety plan and remove any means of suicide from their environment.",
+        "Some strategies for suicide prevention include seeking professional help, talking to a trusted friend or family member, and calling a crisis helpline. It's also important to remove any means of suicide, such as guns or medications, and to create a safety plan.",
+        "If you or someone you know is experiencing suicidal thoughts, it is important to seek help immediately. You can contact a crisis helpline or seek support from a mental health professional."
+      ],
+      "context_set": "suicide prevention tips"
+    },
+    {
+      "tag": "Suicide Causes",
+      "patterns": [
+        "What are the common causes of suicide?",
+        "Can you tell me more about the reasons behind suicide?",
+        "Why do people commit suicide?",
+        "Why does suicide happen?",
+        "What causes suicide?",
+        "Suicide causes",
+        "Suicidal thoughts cause"
+      ],
+      "responses": [
+        "Suicide is a complex issue with no single cause. Some of the most common factors include depression, anxiety, bipolar disorder, substance abuse, and a sense of hopelessness or helplessness. It's important to seek help if you're struggling with any of these issues.",
+        "While each individual's experience is unique, common causes of suicide include untreated mental illness, feelings of isolation, a history of abuse, chronic pain or illness, and traumatic life events.",
+        "Suicide can have many causes, including but not limited to mental health conditions, substance abuse, trauma, stress, financial or relationship problems, and a history of suicide in the family."
+      ],
+      "context_set": "suicide causes"
+    },
+    {
+      "tag": "Suicide Effects",
+      "patterns": [
+        "What are the effects of suicide?",
+        "How does suicide affect the people left behind?",
+        "Can you tell me more about the impact of suicide?",
+        "What are some effects caused by suicide?",
+        "Suicide Effects"
+      ],
+      "responses": [
+        "Suicide can have a ripple effect on the community and can lead to a sense of loss, confusion, and trauma. Survivors of suicide loss may struggle with feelings of abandonment, rejection, and helplessness, and may need professional support to cope with their grief and trauma.",
+        "Suicide can also have a profound impact on mental health and can contribute to the development or worsening of mental health conditions, such as depression, anxiety, and post-traumatic stress disorder. It's important to seek help if you or someone you know is struggling with suicidal thoughts or behaviors.",
+        "The effects of suicide can be devastating and long-lasting, not only for the individual who dies by suicide but also for their loved ones. It can cause a range of emotional, psychological, and social problems, such as guilt, shame, anger, depression, and social isolation."
+      ],
+      "context_set": "suicide effects"
+    },
+    {
+      "tag": "Suicide Feeling",
+      "patterns": [
+        "I want to kill myself",
+        "I've thought about killing myself.",
+        "I want to die",
+        "I am going to kill myself",
+        "I am going to commit suicide",
+        "Should I die",
+        "I am suicidal",
+        "I am done with my life",
+        "I want to end my life",
+        "I'm considering suicide",
+        "I feel like I'm a burden to others and better off dead"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling this way. It's important that you know you're not alone, and that there is help available. Have you considered talking to a mental health professional or a crisis helpline? They can provide you with support and guidance on how to cope with these feelings.",
+        "It's okay to feel overwhelmed, but please remember that suicide is not the answer. There are people who care about you and want to help. I urge you to reach out to a trusted friend, family member, or professional for support. You can also call a crisis helpline for immediate assistance.",
+        "I want you to know that your life is valuable and you deserve to be here. If you're feeling suicidal, it's important to seek help right away. There are resources available that can help you cope with these feelings and get the support you need. Please don't hesitate to reach out to a mental health professional or a crisis helpline for assistance.",
+        "I am sorry to hear that, but suicide is never the answer. Suicide is a very traumatic loss and affects survivors significantly. Never take the extreme step as this is not the end of your road. If you're experiencing suicidal thoughts, you should seek help right away."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Trauma Definition",
+      "patterns": [
+        "What is trauma?",
+        "Can you define trauma?",
+        "I'm not sure what trauma means, can you explain it to me?",
+        "Could you explain what trauma is?",
+        "Definition trauma",
+        "Trauma"
+      ],
+      "responses": [
+        "Trauma refers to a deeply distressing or disturbing experience or event that overwhelms an individual's ability to cope with it. It can be physical, emotional, or psychological and may cause lasting effects on a person's mental health and well-being. Examples of trauma include experiencing or witnessing violence, abuse, natural disasters, accidents, or serious illnesses."
+      ],
+      "context_set": "trauma definition"
+    },
+    {
+      "tag": "Trauma Tips",
+      "patterns": [
+        "Can you give me some tips for dealing with trauma?",
+        "How to treat my trauma",
+        "What are some ways to cope with trauma?",
+        "How can I manage the effects of trauma?",
+        "Trauma Tips"
+      ],
+      "responses": [
+        "Try relaxation techniques, such as deep breathing, meditation, or yoga.",
+        "Connect with supportive friends or family members who can listen and offer emotional support.",
+        "Be patient with yourself and give yourself time to heal.",
+        "Maintain a healthy lifestyle, practice self-care, such as getting enough sleep, eating well, and engaging in physical activity.",
+        "Seek professional help from a therapist or counselor who specializes in trauma treatment."
+      ],
+      "context_set": "trauma tips"
+    },
+    {
+      "tag": "Trauma Causes",
+      "patterns": [
+        "What are the causes of trauma?",
+        "Can you list some things that can cause trauma?",
+        "What factors contribute to the development of trauma?",
+        "Why trauma?",
+        "Why does trauma occur",
+        "Trauma causes",
+        "Causes of trauma"
+      ],
+      "responses": [
+        "Trauma can also result from ongoing abuse, neglect, or exposure to violence or crime.",
+        "Medical trauma, such as a serious illness or injury, can cause psychological trauma.",
+        "Childhood trauma, such as emotional, physical, or sexual abuse, can have a lasting impact on mental health and contribute to the development of trauma.",
+        "Genetics and individual vulnerability also play a role in the development of trauma.",
+        "Trauma can be caused by a variety of factors, including experiencing or witnessing a natural disaster, physical or sexual assault, combat, or other traumatic events"
+      ],
+      "context_set": "trauma causes"
+    },
+    {
+      "tag": "Trauma Effects",
+      "patterns": [
+        "What are the effects of trauma?",
+        "How does trauma affect mental health?",
+        "Can you talk about the long-term effects of trauma?",
+        "What are some effects caused by trauma?",
+        "Trauma effects"
+      ],
+      "responses": [
+        "Trauma can have a wide range of effects on mental health, including anxiety, depression, flashbacks, nightmares, and emotional numbness.",
+        "Some people may also experience physical symptoms, such as chronic pain or fatigue, as a result of trauma.",
+        "The effects of trauma can be long-lasting and can impact a person's relationships, work, and daily life. Seeking support from a mental health professional can be helpful in managing these effects."
+      ],
+      "context_set": "trauma effects"
+    },
+    {
+      "tag": "Therapist Definition",
+      "patterns": [
+        "What is a therapist?",
+        "What does a therapist do?",
+        "Therapist"
+      ],
+      "responses": [
+        "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Therapy Definition",
+      "patterns": ["What is therapy?", "Define therapy", "Therapy"],
+      "responses": [
+        "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Caregiver",
+      "patterns": [
+        "I'm a caregiver",
+        "I'm taking care of someone",
+        "I'm responsible for someone's care"
+      ],
+      "responses": [
+        "Being a caregiver can be challenging, but it's also a rewarding experience. Have you considered seeking support from a local organization or support group for caregivers?",
+        "Caregiving is a challenging but rewarding experience. Have you considered seeking support from a local organization or support group for caregivers?",
+        "Taking care of someone can be challenging, but it's important to remember that you're not alone. Have you considered seeking support from a local organization or support group for caregivers?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Health Concerns",
+      "patterns": ["I'm worried about my health", "I have a health concern"],
+      "responses": [
+        "It's important to take care of your health and seek medical attention if you have any concerns. Consider scheduling an appointment with your doctor or speaking to a healthcare professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Social connections",
+      "patterns": [
+        "How can I maintain social connections?",
+        "social connections"
+      ],
+      "responses": [
+        "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Support Group",
+      "patterns": ["Where can I go to find a support group?", "support group"],
+      "responses": [
+        "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Difference Anxiety And Stress",
+      "patterns": [
+        "What's the difference between anxiety and stress?",
+        "difference between anxiety and stress",
+        "anxiety and stress"
+      ],
+      "responses": [
+        "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Difference Sadness And Depression",
+      "patterns": [
+        "What's the difference between sadness and depression?",
+        "difference between sadness and depression",
+        "sadness and depression"
+      ],
+      "responses": [
+        "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "SOS",
+      "patterns": ["hotline", "sos", "SOS hotlines"],
+      "responses": [
+        "Please press the red 'SOS' button above on the nagivation bar!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Learn",
+      "patterns": [
+        "I want to learn about mental health.",
+        "I want to learn more about mental health.",
+        "I'm interested in learning about mental health."
+      ],
+      "responses": [
+        "Oh that's really great. I'd be willing to answer anything that I know about it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ask",
+      "patterns": ["Can I ask you something?"],
+      "responses": [
+        "Sure. I'll try my best to answer you",
+        "Of course. Feel free to ask me anything. I'll do my best to answer you"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "Where are you?",
+        "Where do you live?",
+        "What is your location?"
+      ],
+      "responses": [
+        "Duh I live in your computer",
+        "Everywhere",
+        "Somewhere in the universe"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Memory Loss",
+      "patterns": [
+        "I'm worried about memory loss",
+        "I'm concerned about my memory",
+        "I'm forgetting things more often"
+      ],
+      "responses": [
+        "It's natural to be concerned about memory loss as we age, but it's important to remember that there are many ways to maintain cognitive health. Consider engaging in mentally stimulating activities, eating a healthy diet, and staying physically active."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Self Esteem",
+      "patterns": [
+        "How do I improve my self esteem?",
+        "How do I raise my low self esteem?",
+        "How do I build self esteem?",
+        "How do I improve my self confidence?",
+        "How do I raise my low self confidence?",
+        "How do I build self confidence?",
+        "self esteem",
+        "self confidence"
+      ],
+      "responses": [
+        "You can start by identifying negative beliefs and thoughts you have about yourself, such as, \"No one cares about me\" and noting them down. Next, write down things that challenges those beliefs, such as, \"My mom calls to chat every week\". You can also write down positive things other people say about you! Put this list somewhere you can see, like beside your mirror or on your fridge, so you can remind yourself of how cool you are B)",
+        "You can give yourself a mini pep talk to boost your confidence. You can say phrases like: \"I got this!\", \"I can do it!\" or \"If I did it once, I can do it again!\""
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ping Pong",
+      "patterns": ["Ping"],
+      "responses": ["Pong"],
+      "context_set": ""
+    },
+    {
+      "tag": "Contact",
+      "patterns": [
+        "Your contact number",
+        "Where can we find you",
+        "How do I reach you",
+        "Are you on social media"
+      ],
+      "responses": ["I am always right here. You can reach me anytime"],
+      "context_set": ""
+    },
+    {
+      "tag": "Bully",
+      "patterns": [
+        "I'm being bullied at school.",
+        "My coworker is constantly harassing me.",
+        "My child is being bullied on social media.",
+        "I feel helpless and alone because of the bullying.",
+        "I'm being bullied",
+        "I don't know how to stop the bullying."
+      ],
+      "responses": [
+        "I'm sorry to hear that you're going through this. Bullying is never okay and you don't deserve to be treated this way. Try talking to someone you trust about what's going on.",
+        "Bullying can have a serious impact on mental health and well-being. It's important to take action and reach out for help. There are resources available, such as hotlines, counselors, and support groups.",
+        "Remember that the bullying is not your fault and you are not alone. You deserve to feel safe and respected. Consider talking to a therapist or seeking legal help if necessary.",
+        "It's important to report the bullying to the appropriate authorities, whether it's a school principal, HR department, or social media platform. Keep records of any incidents and try to stay away from the bully if possible.",
+        "Don't be afraid to ask for help. You deserve to live a happy and healthy life free from bullying. Remember that there are people who care about you and want to help."
+      ],
+      "context_set": "Bully"
+    },
+    {
+      "tag": "Journal",
+      "patterns": [
+        "How can journaling help me?",
+        "What is the purpose of journaling?",
+        "What is journaling?",
+        "How do I start journaling?",
+        "Journal"
+      ],
+      "responses": [
+        "Journaling can help you to process your thoughts and emotions, gain clarity, and reduce stress. You can try it now by login to your account and click on the journal tab!",
+        "The purpose of journaling is to reflect on your experiences, feelings, and thoughts in a safe and private space. You can try it now by login to your account and click on the journal tab!",
+        "To start journaling, find a quiet and comfortable space, grab a pen and paper or a digital journal, and write about whatever comes to mind. You can try it now by login to your account and click on the journal tab!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Reiterate",
+      "patterns": [
+        "Another",
+        "Anymore",
+        "One More",
+        "Is there more?",
+        "Again",
+        "More please",
+        "More",
+        "Another one",
+        "Another one please",
+        "Continue",
+        "Yes more",
+        "Yes",
+        "Yes please"
+      ],
+      "responses": [
+        "I didn't understand that. There is a chance that input is out of context. Please try again."
+      ],
+      "context_set": ""
+    }
+  ]
+}

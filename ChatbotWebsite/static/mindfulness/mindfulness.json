@@ -1,0 +1,24 @@
+{
+  "mindfulness_exercises": [
+    {
+      "title": "Breathing Retraining (10:45)",
+      "description": "Breathing Retraining is a technique for reducing your level of anxiety. It is a simple technique that can be used anywhere and at any time.",
+      "file_name": "Breathing Retraining.mp3"
+    },
+    {
+      "title": "Body Scan Meditation (4:01)",
+      "description": "Body Scan Meditation is a type of mindfulness meditation that involves bringing awareness to different parts of the body and noticing physical sensations without judgment.",
+      "file_name": "Body Scan Meditation.mp3"
+    },
+    {
+      "title": "Mountain Meditation (8:12)",
+      "description": "Mountain Meditation is a type of guided imagery meditation that involves visualizing yourself as a mountain, steady and strong, while observing your thoughts and feelings as clouds passing by.",
+      "file_name": "Mountain Meditation.mp3"
+    },
+    {
+      "title": "Rain and Thunder Sounds (9:37)",
+      "description": "The sound of rain can lower your anxiety levels, promote relaxation and enhance the quality of sleep.",
+      "file_name": "Rain and Thunder Sounds.mp3"
+    }
+  ]
+}

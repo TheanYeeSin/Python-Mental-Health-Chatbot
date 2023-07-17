@@ -1,0 +1,11 @@
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #aaeeff;
+  border-radius: 0.375rem;
+}
+.navbar .navbar-nav .sos:hover {
+  background-color: #ffaaaa;
+  border-radius: 0.375rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

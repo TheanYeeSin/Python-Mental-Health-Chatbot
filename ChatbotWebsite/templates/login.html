@@ -1,0 +1,58 @@
+{%extends "layout.html"%} {%block content%}
+<div class="container-sm px-5">
+  <div class="row">
+    <div class="col-4">
+      <img src="{{url_for('static',filename='images/login.jpg')}}" 
+      id="login-image"
+      class="img-fluid rounded-start my-4">
+    </div>
+    <div class="col-8">
+      <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <fieldset class="form-group d-grid gap-3">
+          <legend
+            class="fs-1 fw-bold font-monospace border-bottom border-info mb-3 mt-2"
+          >
+            Log In
+          </legend>
+          <div class="form-group">
+            {{form.email.label(class="form-control-label")}} {%if
+            form.email.errors%} {{form.email(class="form-control form-control-lg
+            is-invalid")}} {%for error in form.email.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.email(class="form-control form-control-lg")}}
+            {%endif%}
+          </div>
+          <div class="form-group">
+            {{form.password.label(class="form-control-label")}} {%if
+            form.password.errors%} {{form.password(class="form-control
+            form-control-lg is-invalid")}} {%for error in form.password.errors%}
+            <div class="invalid-feedback">{{error}}</div>
+            {%endfor%} {%else%} {{form.password(class="form-control
+            form-control-lg")}} {%endif%}
+          </div>
+          <div class="form-check">
+            {{form.remember_me(class="form-check-input")}}
+            {{form.remember_me.label(class="form-check-label")}}
+          </div>
+        </fieldset>
+        <div class="form-group">
+          {{form.submit(class="btn btn-outline-info btn-lg mt-3 mb-1")}}
+        </div>
+        <small class="text-muted">
+          <a class="link-info text-decoration-none" href="{{url_for('users.reset_request')}}">Forgot Password?</a>
+        </small>
+      </form>
+      <hr />
+      <div class="text-muted">
+        <small
+          >Need an Account?
+          <a class="link-info text-decoration-none" href="{{url_for('users.register')}}"
+            >Sign Up</a
+          ></small
+        >
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content%}
