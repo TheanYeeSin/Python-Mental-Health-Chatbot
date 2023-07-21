@@ -8,7 +8,9 @@ This is built to educate users with the correct knowledge of mental health and a
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/d15f235a-ae37-4c4b-9245-640528e147d3)
 
 It is a full-stack project which involves frontend, backend, and a database.
-<sub>Duration Taken: Roughly 1 and a half month, Final Result: A+</sub>
+
+<sub>Duration Taken: Roughly 1 and a half months, Final Result: A+</sub>
+
 ## Functions
 - Register, Login, and Continue as a Guest (For privacy reasons)
 - Chat with the chatbot
