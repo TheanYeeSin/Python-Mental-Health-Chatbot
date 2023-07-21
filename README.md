@@ -25,6 +25,7 @@ It is a full-stack project which involves frontend, backend, and a database.
 - Create using Python
 - Flask for the Web
 - SQLAlchemy for Database
+- BootStraps for the UI
 - Other Library like Flask-login, Flask-bcrypt, NLTK, TensorFlow
 
 As mentioned, this is my final year project, so it does come with a report. If you need it, please contact me.
