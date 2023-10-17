@@ -28,8 +28,6 @@ It is a full-stack project which involves frontend, backend, and a database.
 - Bootstrap for the UI
 - Other Library like Flask-login, Flask-bcrypt, NLTK, TensorFlow
 
-As mentioned, this is my final year project, so it does come with a report. If you need it, please contact me.
-
 ## Images
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/b9a479bb-a148-4fc2-8cda-0d8fd192d023)
 
