@@ -44,5 +44,9 @@ It is a full-stack project which involves frontend, backend, and a database.
 Note: Configure your database and make sure the database and URI is set up correctly
 
 ```
+pip install -r requirements.txt
+```
+
+```
 python run.py
 ```
