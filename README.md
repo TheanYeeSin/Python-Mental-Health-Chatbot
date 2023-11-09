@@ -38,3 +38,11 @@ It is a full-stack project which involves frontend, backend, and a database.
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/f0c138af-2b8f-4d35-b2a7-8c3b70102bea)
 
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/556d6e84-f8f0-4480-ab06-d4523895486d)
+
+## To set up
+
+Note: Configure your database and make sure the database and URI is set up correctly
+
+```
+python run.py
+```
