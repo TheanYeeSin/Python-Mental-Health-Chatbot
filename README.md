@@ -1,4 +1,4 @@
-# Web-Based-Python-Mental-Health-Chatbot
+# Python-Mental-Health-Chatbot(Web-based)
 
 This is my final year project at my university
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/63239c57-86fd-4e19-a909-cfd86e101fce)
