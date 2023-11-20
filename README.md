@@ -4,8 +4,6 @@ This is my final year project at my university
 
 AIM: This is built to educate users with the correct knowledge of mental health and also provide some functions to improve mental health ***(NOT DIAGNOSIS)***.
 
-It is a full-stack project which involves frontend, backend, and a database.
-
 <sub>Duration Taken: Roughly 1 and a half months, Final Result: A+</sub>
 
 ## Languages Used
