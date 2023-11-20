@@ -8,14 +8,18 @@ It is a full-stack project which involves frontend, backend, and a database.
 
 <sub>Duration Taken: Roughly 1 and a half months, Final Result: A+</sub>
 
-## Installation
+## Languages Used
 
-Note: Configure your application in the `config.py` and database and make sure the database and URI are set up correctly
+- Frontend: Python
+- Backend: Python
+- Database: MySQL
+
+## Installation
 
 ```
 git clone
 ```
-
+Note: Configure your application in the `config.py` and database and make sure the database and URI are set up correctly
 ```
 pip install -r requirements.txt
 ```
