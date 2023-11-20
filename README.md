@@ -8,9 +8,13 @@ It is a full-stack project which involves frontend, backend, and a database.
 
 <sub>Duration Taken: Roughly 1 and a half months, Final Result: A+</sub>
 
-## To set up
+## Installation
 
 Note: Configure your application in the `config.py` and database and make sure the database and URI are set up correctly
+
+```
+git clone
+```
 
 ```
 pip install -r requirements.txt
@@ -35,7 +39,8 @@ python run.py
 - Flask for the Web
 - SQLAlchemy for Database
 - Bootstrap for the UI
-- Other Library like Flask-login, Flask-bcrypt, NLTK, TensorFlow
+- TensorFlow and NLTK for the machine learning model
+- Other Library like Flask-login, Flask-bcrypt
 
 ## Screenshots
 ![image](https://github.com/TheanYeeSin/Web-Based-Python-Mental-Health-Chatbot/assets/68727045/63239c57-86fd-4e19-a909-cfd86e101fce)
