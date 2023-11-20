@@ -6,7 +6,7 @@ AIM: This is built to educate users with the correct knowledge of mental health 
 
 <sub>Duration Taken: Roughly 1 and a half months, Final Result: A+</sub>
 
-## Languages Used
+## Languages/Components Used
 
 - Frontend: Python
 - Backend: Python
